@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<InformationRegister uuid="36cc1aeb-79f1-469c-90c1-ac2ab15d35ce">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.АналитикаУчетаНоменклатуры" category="Record">
+				<xr:TypeId>f5cedef8-84a8-461e-9ce0-7885266bad81</xr:TypeId>
+				<xr:ValueId>706e6c30-a1f8-40f2-815d-f8cc63d11a46</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.АналитикаУчетаНоменклатуры" category="Manager">
+				<xr:TypeId>e5274cfc-8cb1-4f86-a2c6-4d35b87ab1f6</xr:TypeId>
+				<xr:ValueId>877bdb6c-e758-4dca-aab1-424975628c6e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.АналитикаУчетаНоменклатуры" category="Selection">
+				<xr:TypeId>4d44e331-5797-492e-86c7-af5d695f7f41</xr:TypeId>
+				<xr:ValueId>bf093f84-d997-4134-a293-8d2e32a1bb39</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.АналитикаУчетаНоменклатуры" category="List">
+				<xr:TypeId>1da793da-ae0b-4a13-a88d-eac68b9d42fd</xr:TypeId>
+				<xr:ValueId>5c5f3ebe-5709-466e-9f5f-347eeea7f731</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.АналитикаУчетаНоменклатуры" category="RecordSet">
+				<xr:TypeId>44b05986-a4b3-4231-b121-e338d5345004</xr:TypeId>
+				<xr:ValueId>1137c348-483e-400a-a414-da99a327de94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.АналитикаУчетаНоменклатуры" category="RecordKey">
+				<xr:TypeId>3d76e0a7-2bd3-48f5-a4f6-62e9019743b5</xr:TypeId>
+				<xr:ValueId>379ae31b-e5e4-410c-9045-a78861998b8e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.АналитикаУчетаНоменклатуры" category="RecordManager">
+				<xr:TypeId>541a612d-9ea1-49e5-a657-c0e3605f9db9</xr:TypeId>
+				<xr:ValueId>d68834f4-534d-4a09-8e8d-bca87ab983e8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>АналитикаУчетаНоменклатуры</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>3f1474f8-aa38-42d7-b209-c80ad3db4af3</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

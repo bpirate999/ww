@@ -1,0 +1,3399 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Customizable>false</Customizable>
+	<CommandBarLocation>None</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<Button name="НастройкиРасчетаЗарплаты" id="496">
+			<Type>UsualButton</Type>
+			<CommandName>0</CommandName>
+			<ExtendedTooltip name="НастройкиРасчетаЗарплатыРасширеннаяПодсказка" id="497"/>
+		</Button>
+		<UsualGroup name="ГруппаЗаголовок" id="411">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заголовок</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаЗаголовокРасширеннаяПодсказка" id="412"/>
+			<ChildItems>
+				<LabelDecoration name="ОписаниеРаздела" id="80">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки расчета зарплаты, учета отработанного времени, отсутствий на работе</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОписаниеРазделаКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ОписаниеРазделаExtendedTooltip" id="271"/>
+				</LabelDecoration>
+				<CommandBar name="ГруппаСправка" id="423">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Справка</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаСправкаРасширеннаяПодсказка" id="424"/>
+					<ChildItems>
+						<Button name="Справка" id="421">
+							<Type>CommandBarButton</Type>
+							<Representation>Picture</Representation>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="422"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаИспользоватьРасчетЗарплаты" id="258">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Использовать расчет зарплаты</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаИспользоватьРасчетЗарплатыExtendedTooltip" id="272"/>
+			<ChildItems>
+				<CheckBoxField name="ИспользоватьНачислениеЗарплаты" id="245">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использовать программу для расчета заработной платы</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Right</TitleLocation>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ИспользоватьНачислениеЗарплатыКонтекстноеМеню" id="246"/>
+					<ExtendedTooltip name="ИспользоватьНачислениеЗарплатыРасширеннаяПодсказка" id="273"/>
+				</CheckBoxField>
+				<LabelDecoration name="ПояснениеИспользоватьНачислениеЗарплаты" id="98">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>75</MaxWidth>
+					<TextColor>style:ПоясняющийТекст</TextColor>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Если программу планируется использовать только для ведения кадрового учета или штатного расписания предприятия, снимите этот флажок.</v8:content>
+						</v8:item>
+					</Title>
+					<VerticalAlign>Top</VerticalAlign>
+					<ContextMenu name="ПояснениеИспользоватьНачислениеЗарплатыКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="ПояснениеИспользоватьНачислениеЗарплатыExtendedTooltip" id="274"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаНастройки" id="100">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаНастройкиExtendedTooltip" id="275"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаНастройкаНачислений" id="389">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройка начислений</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНастройкаНачисленийРасширеннаяПодсказка" id="390"/>
+					<ChildItems>
+						<Button name="НастройкаНачисленийУдержаний" id="228">
+							<Type>Hyperlink</Type>
+							<CommandName>0</CommandName>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройка состава начислений и удержаний</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="НастройкаНачисленийУдержанийExtendedTooltip" id="276"/>
+						</Button>
+						<LabelDecoration name="НастройкаНачисленийУдержанийОписание" id="269">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Управление составом используемых начислений и удержаний, таких как: почасовая оплата, оплаты командировок, удержание профсоюзных взносов и т.д.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="НастройкаНачисленийУдержанийОписаниеКонтекстноеМеню" id="270"/>
+							<ExtendedTooltip name="НастройкаНачисленийУдержанийОписаниеРасширеннаяПодсказка" id="277"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаСтатьиФинансированияСтатистикаПерсонала" id="319">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статьи финансирования статистика персонала</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСтатьиФинансированияСтатистикаПерсоналаРасширеннаяПодсказка" id="320"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаИспользоватьУчетПоСтатьямФинансирования" id="324">
+							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использовать учет по статьям финансирования</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаИспользоватьУчетПоСтатьямФинансированияРасширеннаяПодсказка" id="325"/>
+							<ChildItems>
+								<CheckBoxField name="ИспользоватьСтатьиФинансирования" id="321">
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ИспользоватьСтатьиФинансированияКонтекстноеМеню" id="322"/>
+									<ExtendedTooltip name="ИспользоватьСтатьиФинансированияРасширеннаяПодсказка" id="323"/>
+								</CheckBoxField>
+								<LabelField name="ИспользоватьСтатьиФинансированияОписание" id="340">
+									<TitleLocation>None</TitleLocation>
+									<VerticalAlign>Top</VerticalAlign>
+									<Width>35</Width>
+									<Height>5</Height>
+									<HorizontalStretch>false</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
+									<TextColor>style:ПоясняющийТекст</TextColor>
+									<ContextMenu name="ИспользоватьСтатьиФинансированияОписаниеКонтекстноеМеню" id="341"/>
+									<ExtendedTooltip name="ИспользоватьСтатьиФинансированияОписаниеРасширеннаяПодсказка" id="342"/>
+								</LabelField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаНастройкиСтатистикиПерсонала" id="329">
+							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Настройки статистики персонала</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНастройкиСтатистикиПерсоналаРасширеннаяПодсказка" id="330"/>
+							<ChildItems>
+								<CheckBoxField name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферы" id="334">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Предприятие социальной сферы</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферыКонтекстноеМеню" id="335"/>
+									<ExtendedTooltip name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферыРасширеннаяПодсказка" id="336"/>
+								</CheckBoxField>
+								<LabelDecoration name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферыОписание" id="331">
+									<Width>40</Width>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxHeight>4</MaxHeight>
+									<TextColor>style:ПоясняющийТекст</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Если ваше предприятие относится к социальной сфере и сдает статистическую отчетность по мониторингу численности и зарплаты работников социальной сферы (формы ЗП), укажите вид своего предприятия.</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Top</VerticalAlign>
+									<ContextMenu name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферыОписаниеКонтекстноеМеню" id="332"/>
+									<ExtendedTooltip name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферыОписаниеРасширеннаяПодсказка" id="333"/>
+								</LabelDecoration>
+								<InputField name="ФормаОтчетностиМониторингаРаботниковСоциальнойСферы" id="337">
+									<TitleLocation>None</TitleLocation>
+									<ContextMenu name="ФормаОтчетностиМониторингаРаботниковСоциальнойСферыКонтекстноеМеню" id="338"/>
+									<ExtendedTooltip name="ФормаОтчетностиМониторингаРаботниковСоциальнойСферыРасширеннаяПодсказка" id="339"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаИспользованиеИФО" id="343">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использование ИФО</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаИспользованиеИФОРасширеннаяПодсказка" id="344"/>
+					<ChildItems>
+						<LabelField name="ИспользоватьИФООписание" id="345">
+							<TitleLocation>None</TitleLocation>
+							<Width>70</Width>
+							<Height>2</Height>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<ContextMenu name="ИспользоватьИФООписаниеКонтекстноеМеню" id="346"/>
+							<ExtendedTooltip name="ИспользоватьИФООписаниеРасширеннаяПодсказка" id="347"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРасчетПоОрганизации" id="247">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Расчет по организации</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРасчетПоОрганизацииExtendedTooltip" id="278"/>
+					<ChildItems>
+						<CheckBoxField name="НеВыполнятьРасчетЗарплатыПоПодразделениям" id="252">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расчет и выплата зарплаты выполняется по организации в целом</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НеВыполнятьРасчетЗарплатыПоПодразделениямКонтекстноеМеню" id="253"/>
+							<ExtendedTooltip name="НеВыполнятьРасчетЗарплатыПоПодразделениямExtendedTooltip" id="279"/>
+						</CheckBoxField>
+						<LabelDecoration name="ИнфоНадписьРасчетЗарплатыПоПодразделениям" id="250">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Возможность выполнять расчет и выплату зарплаты по всей организации сразу, не вводя несколько документов по разным подразделениям.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ИнфоНадписьРасчетЗарплатыПоПодразделениямКонтекстноеМеню" id="251"/>
+							<ExtendedTooltip name="ИнфоНадписьРасчетЗарплатыПоПодразделениямExtendedTooltip" id="280"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаРассчитыватьДокументыПриРедактировании" id="379">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Рассчитывать документы при редактировании</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаРассчитыватьДокументыПриРедактированииРасширеннаяПодсказка" id="380"/>
+					<ChildItems>
+						<CheckBoxField name="РассчитыватьДокументыПриРедактировании" id="381">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РассчитыватьДокументыПриРедактированииКонтекстноеМеню" id="382"/>
+							<ExtendedTooltip name="РассчитыватьДокументыПриРедактированииРасширеннаяПодсказка" id="383"/>
+						</CheckBoxField>
+						<LabelDecoration name="ИнфоНадписьРассчитыватьДокументыПриРедактировании" id="384">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выполнение автоматического пересчета сразу при редактировании документа. Если производительности вашего компьютера или сервера, на котором установлена программа, недостаточно и автоматический пересчет документа выполняется с большими задержками, не используйте эту возможность. Пересчет документов можно будет выполнять кнопкой "Пересчитать".</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ИнфоНадписьРассчитыватьДокументыПриРедактированииКонтекстноеМеню" id="385"/>
+							<ExtendedTooltip name="ИнфоНадписьРассчитыватьДокументыПриРедактированииРасширеннаяПодсказка" id="386"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаОтОбратного" id="588">
+					<Group>Vertical</Group>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОтОбратногоРасширеннаяПодсказка" id="589"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьРасчетыОтОбратного" id="590">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использовать расчеты "от обратного"</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьРасчетыОтОбратногоКонтекстноеМеню" id="591"/>
+							<ExtendedTooltip name="ИспользоватьРасчетыОтОбратногоРасширеннаяПодсказка" id="592"/>
+						</CheckBoxField>
+						<LabelDecoration name="ИнфоНадписьРасчетыОтОбратного" id="593">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Позволяет использовать начисления, результатом расчета которых является сумма, увеличенная на сумму компенсации удержаний.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ИнфоНадписьРасчетыОтОбратногоКонтекстноеМеню" id="594"/>
+							<ExtendedTooltip name="ИнфоНадписьРасчетыОтОбратногоРасширеннаяПодсказка" id="595"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаКомментарийИспользоватьРасчетОтОбратного" id="596">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Комментарий использовать подразделения</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа комментарий использовать расчет от обратного</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаКомментарийИспользоватьРасчетОтОбратногоРасширеннаяПодсказка" id="597"/>
+							<ChildItems>
+								<PictureDecoration name="Декорация20" id="598">
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="Декорация20КонтекстноеМеню" id="599"/>
+									<ExtendedTooltip name="Декорация20ExtendedTooltip" id="600"/>
+								</PictureDecoration>
+								<LabelDecoration name="КомментарийИспользоватьРасчетыОтОбратного" id="601">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Начисления "от обратного" используются в программе, для отключения настройки необходимо отменить плановые начисления сотрудников с видом "от обратного".</v8:content>
+										</v8:item>
+									</Title>
+									<VerticalAlign>Top</VerticalAlign>
+									<ContextMenu name="КомментарийИспользоватьРасчетыОтОбратногоКонтекстноеМеню" id="602"/>
+									<ExtendedTooltip name="КомментарийИспользоватьРасчетыОтОбратногоРасширеннаяПодсказка" id="603"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаИндексация" id="259">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Индексация</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаИндексацияExtendedTooltip" id="281"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьИндексациюЗаработка" id="8">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выполняется индексация заработка сотрудников</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьИндексациюЗаработкаКонтекстноеМеню" id="9"/>
+							<ExtendedTooltip name="ИспользоватьИндексациюЗаработкаExtendedTooltip" id="282"/>
+						</CheckBoxField>
+						<LabelField name="ИспользоватьИндексациюЗаработкаИнфоТекст" id="391">
+							<TitleLocation>None</TitleLocation>
+							<Width>70</Width>
+							<Height>2</Height>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<ContextMenu name="ИспользоватьИндексациюЗаработкаИнфоТекстКонтекстноеМеню" id="392"/>
+							<ExtendedTooltip name="ИспользоватьИндексациюЗаработкаИнфоТекстРасширеннаяПодсказка" id="393"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаЗаймы" id="268">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Займы</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаЗаймыExtendedTooltip" id="287"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьЗаймыСотрудникам" id="221">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выдаются займы сотрудникам</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьЗаймыСотрудникамКонтекстноеМеню" id="222"/>
+							<ExtendedTooltip name="ИспользоватьЗаймыСотрудникамExtendedTooltip" id="288"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация5" id="239">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Если на предприятии выдаются займы сотрудникам, их необходимо регистрировать не только для целей погашения займа из зарплаты, но и для регистрации материальной выгоды в случае применения пониженного процента по займу.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="Декорация5КонтекстноеМеню" id="240"/>
+							<ExtendedTooltip name="Декорация5ExtendedTooltip" id="289"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаДоговоры" id="266">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Договоры</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаДоговорыExtendedTooltip" id="290"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьНачисленияПоДоговорам" id="219">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регистрируются выплаты по договорам гражданско-правового характера</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьНачисленияПоДоговорамКонтекстноеМеню" id="220"/>
+							<ExtendedTooltip name="ИспользоватьНачисленияПоДоговорамExtendedTooltip" id="291"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация2" id="233">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Наряду с трудовыми договорами с сотрудниками могут заключаться договоры гражданско-правового характера. Как правило, это договоры на выполнение конкретного объема работ в определенный срок.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="Декорация2КонтекстноеМеню" id="234"/>
+							<ExtendedTooltip name="Декорация2ExtendedTooltip" id="292"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПрочиеДоходы" id="261">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочие доходы</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПрочиеДоходыExtendedTooltip" id="296"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьРегистрациюПрочихДоходов" id="225">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регистрируются прочие доходы физических лиц, не связанные с оплатой труда</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьРегистрациюПрочихДоходовКонтекстноеМеню" id="226"/>
+							<ExtendedTooltip name="ИспользоватьРегистрациюПрочихДоходовExtendedTooltip" id="297"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация3" id="235">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>На предприятии могут выплачиваться доходы сторонним физическим лицам (аренда автотранспорта, выплата призов и т.д.) </v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="Декорация3КонтекстноеМеню" id="236"/>
+							<ExtendedTooltip name="Декорация3ExtendedTooltip" id="298"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаБывшиеСотрудники" id="262">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Бывшие сотрудники</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаБывшиеСотрудникиExtendedTooltip" id="299"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьВыплатыБывшимСотрудникам" id="223">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выплачиваются доходы бывшим сотрудникам предприятия</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьВыплатыБывшимСотрудникамКонтекстноеМеню" id="224"/>
+							<ExtendedTooltip name="ИспользоватьВыплатыБывшимСотрудникамExtendedTooltip" id="300"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация4" id="237">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выплаты бывшим сотрудникам, такие как выплата материальной помощи пенсионерам, также необходимо фиксировать в программе (для формирования налоговой отчетности и т.п.)</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="Декорация4КонтекстноеМеню" id="238"/>
+							<ExtendedTooltip name="Декорация4ExtendedTooltip" id="301"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаИспользоватьВедомостиДляВыплатыПрочихДоходов" id="551">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использовать ведомости для выплаты прочих доходов</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаИспользоватьВедомостиДляВыплатыПрочихДоходовРасширеннаяПодсказка" id="552"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьВедомостиДляВыплатыПрочихДоходов" id="553">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьВедомостиДляВыплатыПрочихДоходовКонтекстноеМеню" id="554"/>
+							<ExtendedTooltip name="ИспользоватьВедомостиДляВыплатыПрочихДоходовРасширеннаяПодсказка" id="555"/>
+						</CheckBoxField>
+						<LabelDecoration name="ИспользоватьВедомостиДляВыплатыПрочихДоходовОписание" id="558">
+							<Width>75</Width>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использовать ведомости для регистрации выплат прочих доходов физических лиц</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ИспользоватьВедомостиДляВыплатыПрочихДоходовОписаниеКонтекстноеМеню" id="559"/>
+							<ExtendedTooltip name="ИспользоватьВедомостиДляВыплатыПрочихДоходовОписаниеРасширеннаяПодсказка" id="560"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаТарифныеСетки" id="371">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тарифные сетки</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаТарифныеСеткиРасширеннаяПодсказка" id="372"/>
+					<ChildItems>
+						<CheckBoxField name="НастройкиРасчетаЗарплатыИспользоватьТарифныеСеткиПриРасчетеЗарплаты" id="373">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используются тарифные группы</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НастройкиРасчетаЗарплатыИспользоватьТарифныеСеткиПриРасчетеЗарплатыКонтекстноеМеню" id="374"/>
+							<ExtendedTooltip name="НастройкиРасчетаЗарплатыИспользоватьТарифныеСеткиПриРасчетеЗарплатыРасширеннаяПодсказка" id="375"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация10" id="376">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использование разрядов (квалификационных категорий) сотрудников и тарифных групп при описании позиции штатного расписания и при расчете заработной платы.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="Декорация10КонтекстноеМеню" id="377"/>
+							<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="378"/>
+						</LabelDecoration>
+						<LabelField name="ИспользоватьКвалификационнуюНадбавкуОписание" id="408">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использование квалификационных категорий и квалификационных надбавок при описании позиции штатного расписания и при расчете заработной платы</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>None</TitleLocation>
+							<Width>70</Width>
+							<Height>2</Height>
+							<HorizontalStretch>false</HorizontalStretch>
+							<VerticalStretch>false</VerticalStretch>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<ContextMenu name="ИспользоватьКвалификационнуюНадбавкуОписаниеКонтекстноеМеню" id="409"/>
+							<ExtendedTooltip name="ИспользоватьКвалификационнуюНадбавкуОписаниеРасширеннаяПодсказка" id="410"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаИзменениеПКУВКадровыхДокументах" id="498">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изменение ПКУВ кадровых документах</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаИзменениеПКУВКадровыхДокументахРасширеннаяПодсказка" id="499"/>
+					<ChildItems>
+						<CheckBoxField name="РазрешеноИзменениеПКУВКадровыхДокументах" id="500">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РазрешеноИзменениеПКУВКадровыхДокументахКонтекстноеМеню" id="501"/>
+							<ExtendedTooltip name="РазрешеноИзменениеПКУВКадровыхДокументахРасширеннаяПодсказка" id="502"/>
+						</CheckBoxField>
+						<LabelField name="РазрешеноИзменениеПКУВКадровыхДокументахИнфоНадпись" id="506">
+							<TitleLocation>None</TitleLocation>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<ContextMenu name="РазрешеноИзменениеПКУВКадровыхДокументахИнфоНадписьКонтекстноеМеню" id="507"/>
+							<ExtendedTooltip name="РазрешеноИзменениеПКУВКадровыхДокументахИнфоНадписьРасширеннаяПодсказка" id="508"/>
+						</LabelField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаНесколькоСтавок" id="260">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Несколько ставок</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНесколькоСтавокExtendedTooltip" id="293"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьНесколькоТарифныхСтавок" id="254">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используется несколько тарифных ставок для одного сотрудника</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьНесколькоТарифныхСтавокКонтекстноеМеню" id="255"/>
+							<ExtendedTooltip name="ИспользоватьНесколькоТарифныхСтавокExtendedTooltip" id="294"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация7" id="256">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использование одновременно нескольких тарифных ставок для одного сотрудника может применяться, например, при оплате по другому тарифу времени ремонта для водителей, дней в пути при работе вахтовым методом и т.п.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="Декорация7КонтекстноеМеню" id="257"/>
+							<ExtendedTooltip name="Декорация7ExtendedTooltip" id="295"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаИспользоватьКраткосрочныеИзмененияОплатыТрудаВЗависимостиОтВыполняемойРаботы" id="480">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Использовать краткосрочные изменения оплаты труда в зависимости от выполняемой работы</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаИспользоватьКраткосрочныеИзмененияОплатыТрудаВЗависимостиОтВыполняемойРаботыРасширеннаяПодсказка" id="481"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьКраткосрочныеИзмененияОплатыТрудаВЗависимостиОтВыполняемойРаботы" id="482">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используются краткосрочные изменения оплаты труда в зависимости от выполняемой работы</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьКраткосрочныеИзмененияОплатыТрудаВЗависимостиОтВыполняемойРаботыКонтекстноеМеню" id="483"/>
+							<ExtendedTooltip name="ИспользоватьКраткосрочныеИзмененияОплатыТрудаВЗависимостиОтВыполняемойРаботыРасширеннаяПодсказка" id="484"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация11" id="485">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Применение краткосрочных изменений оплаты труда в зависимости от выполняемой сотрудниками работы.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="Декорация11КонтекстноеМеню" id="486"/>
+							<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="487"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаНесколькоВидовПлановогоВремени" id="425">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Несколько видов планового времени</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНесколькоВидовПлановогоВремениExtendedTooltip" id="426"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьНесколькоВидовПлановогоВремени" id="427">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используется несколько видов времени в графике работы</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьНесколькоВидовПлановогоВремениКонтекстноеМеню" id="428"/>
+							<ExtendedTooltip name="ИспользоватьНесколькоВидовПлановогоВремениExtendedTooltip" id="429"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация15" id="430">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Использование нескольких видов времени в графике работы может применяться, например, в графиках с несколькими плановыми видами работ (вахта-явка-время в пути и т.д.), или при использовании почасовой оплаты, если в течение одного рабочего дня (смены) необходимо регистрировать разные виды планового времени</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация15КонтекстноеМеню" id="431"/>
+							<ExtendedTooltip name="Декорация15ExtendedTooltip" id="432"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПроверятьСоответствиеФактическогоВремениПлановому" id="472">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Проверять соответствие фактического времени плановому</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПроверятьСоответствиеФактическогоВремениПлановомуРасширеннаяПодсказка" id="473"/>
+					<ChildItems>
+						<CheckBoxField name="ПроверятьСоответствиеФактическогоВремениПлановому" id="474">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПроверятьСоответствиеФактическогоВремениПлановомуКонтекстноеМеню" id="475"/>
+							<ExtendedTooltip name="ПроверятьСоответствиеФактическогоВремениПлановомуРасширеннаяПодсказка" id="476"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация6" id="477">
+							<Width>75</Width>
+							<ContextMenu name="Декорация6КонтекстноеМеню" id="478"/>
+							<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="479"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="НастройкиУчетаВремениРасширенные" id="577">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки учета времени расширенные</v8:content>
+						</v8:item>
+					</Title>
+					<Width>99</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="НастройкиУчетаВремениРасширенныеРасширеннаяПодсказка" id="578"/>
+					<ChildItems>
+						<CheckBoxField name="НастройкиУчетаВремениИспользоватьРежимыРаботы" id="579">
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НастройкиУчетаВремениИспользоватьРежимыРаботыКонтекстноеМеню" id="580"/>
+							<ExtendedTooltip name="НастройкиУчетаВремениИспользоватьРежимыРаботыРасширеннаяПодсказка" id="581">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Height>2</Height>
+								<HorizontalStretch>true</HorizontalStretch>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Режимы работы позволяют объединять несколько однотипных графиков.
+Могут использоваться в штатном расписании, обеспечивая более точный расчет ФОТ.
+</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</CheckBoxField>
+						<CheckBoxField name="НастройкиУчетаВремениИспользоватьСменыРаботы" id="582">
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НастройкиУчетаВремениИспользоватьСменыРаботыКонтекстноеМеню" id="583"/>
+							<ExtendedTooltip name="НастройкиУчетаВремениИспользоватьСменыРаботыРасширеннаяПодсказка" id="584">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<HorizontalStretch>true</HorizontalStretch>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Включает использование смен в графиках работы и документах учета времени.
+Количество отработанных смен может быть использовано при расчете начислений.
+</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</CheckBoxField>
+						<CheckBoxField name="НастройкиУчетаВремениОтражатьЧасыВДеньНачалаСмены" id="585">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отражать часы смены, переходящие на следующие сутки в день начала смены</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="НастройкиУчетаВремениОтражатьЧасыВДеньНачалаСменыКонтекстноеМеню" id="586"/>
+							<ExtendedTooltip name="НастройкиУчетаВремениОтражатьЧасыВДеньНачалаСменыРасширеннаяПодсказка" id="587">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>При включении данной настройки, все время смены, включая время переходящее на следующие сутки, будет оплачено и отражено в Т-13, 
+в том месяце, к которому относится день начала смены.
+При оплате праздников, будет учтены только часы, фактически пришедшиеся на праздничный день.
+При необходимости, способ отражения конкретной смены для сотрудника, можно изменить в графике или табеле.  
+</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПризыПодарки" id="263">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Призы подарки</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПризыПодаркиExtendedTooltip" id="302"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьПризыПодарки" id="190">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выдаются подарки и призы сотрудникам предприятия</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьПризыПодаркиКонтекстноеМеню" id="191"/>
+							<ExtendedTooltip name="ИспользоватьПризыПодаркиExtendedTooltip" id="303"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация8" id="264">
+							<Visible>false</Visible>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>На предприятии в качестве поощрений сотрудников за трудовые успехи или к юбилейным датам выдаются подарки. При проведении конкурсов и других мероприятий сотрудникам выдаются призы.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="Декорация8КонтекстноеМеню" id="265"/>
+							<ExtendedTooltip name="Декорация8ExtendedTooltip" id="304"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлаты" id="569">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ограничивать сумму удержаний процентом от заработной платы</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлатыРасширеннаяПодсказка" id="570"/>
+					<ChildItems>
+						<CheckBoxField name="ОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлаты" id="571">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлатыКонтекстноеМеню" id="572"/>
+							<ExtendedTooltip name="ОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлатыРасширеннаяПодсказка" id="573"/>
+						</CheckBoxField>
+						<LabelDecoration name="ДекорацияОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлаты" id="574">
+							<Width>75</Width>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ограничивать общий размер удержаний процентом от заработной платы.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлатыКонтекстноеМеню" id="575"/>
+							<ExtendedTooltip name="ДекорацияОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлатыРасширеннаяПодсказка" id="576"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПереноситьДанныеВДругойУчетСреднегоЗаработка" id="488">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Переносить данные в другой учет среднего заработка</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаПереноситьДанныеВДругойУчетСреднегоЗаработкаРасширеннаяПодсказка" id="489"/>
+					<ChildItems>
+						<CheckBoxField name="ПереноситьДанныеВДругойУчетСреднегоЗаработка" id="490">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сведения для расчета общего среднего заработка принимать к учету для расчета пособий (и наоборот)</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПереноситьДанныеВДругойУчетСреднегоЗаработкаКонтекстноеМеню" id="491"/>
+							<ExtendedTooltip name="ПереноситьДанныеВДругойУчетСреднегоЗаработкаРасширеннаяПодсказка" id="492"/>
+						</CheckBoxField>
+						<LabelDecoration name="Декорация12" id="493">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Суммы начислений и данные об отработанном времени при проведении документов расчета общего среднего заработка будут скопированы в данные для расчета пособий, и, наоборот, при проведении документов расчета пособий введенные вручную сведения попадут в учет для расчета общего среднего заработка.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="Декорация12КонтекстноеМеню" id="494"/>
+							<ExtendedTooltip name="Декорация12РасширеннаяПодсказка" id="495"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриема" id="538">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ограничивать начало расчетного периода среднего заработка датой приема</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриемаРасширеннаяПодсказка" id="539"/>
+					<ChildItems>
+						<CheckBoxField name="ОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриема" id="540">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриемаКонтекстноеМеню" id="541"/>
+							<ExtendedTooltip name="ОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриемаРасширеннаяПодсказка" id="542">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+							</ExtendedTooltip>
+						</CheckBoxField>
+						<LabelDecoration name="ДекорацияОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриема" id="543">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>При расчете среднего заработка премии работников, принятых позже даты начала расчетного периода, пропорционально уменьшаются (поскольку расчетный период отработан не полностью). Если ограничить расчетный период датой приема, премии недавно принятых сотрудников будут учитываться в среднем заработке полностью. Изменение порядка определения расчетного периода должно быть оговорено в коллективном договоре.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриемаКонтекстноеМеню" id="544"/>
+							<ExtendedTooltip name="ДекорацияОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриемаРасширеннаяПодсказка" id="545"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаПорядокРасчетаСтоимостиЕдиницыВремени" id="14">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>При пересчете тарифной ставки сотрудника в стоимость часа (дня) использовать</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаПорядокРасчетаСтоимостиЕдиницыВремениExtendedTooltip" id="305"/>
+					<ChildItems>
+						<RadioButtonField name="ПорядокРасчетаСтоимостиЕдиницыВремени" id="27">
+							<TitleLocation>None</TitleLocation>
+							<RadioButtonType>Auto</RadioButtonType>
+							<ColumnsCount>1</ColumnsCount>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Среднемесячное количество часов (дней) в месяце</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда.EnumValue.ПоСреднегодовомуЗначению</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Норму времени по графику сотрудника</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда.EnumValue.ПоНормеВремениГрафикаСотрудника</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Норму времени по производственному календарю</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда.EnumValue.ПоНормеВремениПроизводственногоКалендаря</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ПорядокРасчетаСтоимостиЕдиницыВремениКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="ПорядокРасчетаСтоимостиЕдиницыВремениExtendedTooltip" id="306"/>
+						</RadioButtonField>
+						<LabelDecoration name="ПояснениеПорядокРасчетаСтоимостиЕдиницыВремени" id="29">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пересчет тарифной ставки применяется, например, при оплате сверхурочных часов.</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПояснениеПорядокРасчетаСтоимостиЕдиницыВремениКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ПояснениеПорядокРасчетаСтоимостиЕдиницыВремениExtendedTooltip" id="307"/>
+						</LabelDecoration>
+						<UsualGroup name="ГруппаПоказателиСовокупнойТарифнойСтавки" id="348">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Показатели, определяющие состав совокупной тарифной ставки</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="ГруппаПоказателиСовокупнойТарифнойСтавкиРасширеннаяПодсказка" id="349"/>
+							<ChildItems>
+								<UsualGroup name="ПоказателиСовокупнойТарифнойСтавкиГруппа" id="433">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Показатели совокупной тарифной ставки группа</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиГруппаРасширеннаяПодсказка" id="434"/>
+									<ChildItems>
+										<Table name="ПоказателиСовокупнойТарифнойСтавки" id="350">
+											<Representation>List</Representation>
+											<TitleLocation>Top</TitleLocation>
+											<CommandBarLocation>None</CommandBarLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>25</MaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<HeightInTableRows>4</HeightInTableRows>
+											<Header>false</Header>
+											<HorizontalLines>false</HorizontalLines>
+											<VerticalLines>false</VerticalLines>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<VerticalStretch>false</VerticalStretch>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Доступные показатели</v8:content>
+												</v8:item>
+											</Title>
+											<SearchStringLocation>None</SearchStringLocation>
+											<ViewStatusLocation>None</ViewStatusLocation>
+											<SearchControlLocation>None</SearchControlLocation>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиКонтекстноеМеню" id="351"/>
+											<AutoCommandBar name="ПоказателиСовокупнойТарифнойСтавкиКоманднаяПанель" id="352"/>
+											<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиРасширеннаяПодсказка" id="353"/>
+											<SearchStringAddition name="ПоказателиСовокупнойТарифнойСтавкиСтрокаПоиска" id="394">
+												<AdditionSource>
+													<Item>ПоказателиСовокупнойТарифнойСтавки</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиСтрокаПоискаКонтекстноеМеню" id="395"/>
+												<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиСтрокаПоискаРасширеннаяПодсказка" id="396"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ПоказателиСовокупнойТарифнойСтавкиСостояниеПросмотра" id="397">
+												<AdditionSource>
+													<Item>ПоказателиСовокупнойТарифнойСтавки</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиСостояниеПросмотраКонтекстноеМеню" id="398"/>
+												<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиСостояниеПросмотраРасширеннаяПодсказка" id="399"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ПоказателиСовокупнойТарифнойСтавкиУправлениеПоиском" id="400">
+												<AdditionSource>
+													<Item>ПоказателиСовокупнойТарифнойСтавки</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиУправлениеПоискомКонтекстноеМеню" id="401"/>
+												<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиУправлениеПоискомРасширеннаяПодсказка" id="402"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<CheckBoxField name="ПоказателиСовокупнойТарифнойСтавкиВыбран" id="469">
+													<UserVisible>
+														<xr:Common>false</xr:Common>
+													</UserVisible>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранКонтекстноеМеню" id="470"/>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранРасширеннаяПодсказка" id="471"/>
+												</CheckBoxField>
+												<InputField name="ПоказателиСовокупнойТарифнойСтавкиПоказатель" id="357">
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиПоказательКонтекстноеМеню" id="358"/>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиПоказательРасширеннаяПодсказка" id="359"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+										<UsualGroup name="ПоказателиСовокупнойТарифнойСтавкиКомандыГруппа" id="460">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Показатели совокупной тарифной ставки команды группа</v8:content>
+												</v8:item>
+											</Title>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиКомандыГруппаРасширеннаяПодсказка" id="461"/>
+											<ChildItems>
+												<Button name="ПоказателиСовокупнойТарифнойСтавкиВыбрать" id="462">
+													<Type>UsualButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбратьРасширеннаяПодсказка" id="463"/>
+												</Button>
+												<Button name="ПоказателиСовокупнойТарифнойСтавкиОтменить" id="464">
+													<Type>UsualButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиОтменитьРасширеннаяПодсказка" id="465"/>
+												</Button>
+											</ChildItems>
+										</UsualGroup>
+										<Table name="ПоказателиСовокупнойТарифнойСтавкиВыбранные" id="435">
+											<Representation>List</Representation>
+											<TitleLocation>Top</TitleLocation>
+											<CommandBarLocation>None</CommandBarLocation>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<MaxWidth>25</MaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<HeightInTableRows>4</HeightInTableRows>
+											<Header>false</Header>
+											<HorizontalLines>false</HorizontalLines>
+											<VerticalLines>false</VerticalLines>
+											<AutoInsertNewRow>true</AutoInsertNewRow>
+											<HorizontalStretch>false</HorizontalStretch>
+											<VerticalStretch>false</VerticalStretch>
+											<EnableStartDrag>true</EnableStartDrag>
+											<EnableDrag>true</EnableDrag>
+											<FileDragMode>AsFile</FileDragMode>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Выбранные показатели</v8:content>
+												</v8:item>
+											</Title>
+											<SearchStringLocation>None</SearchStringLocation>
+											<ViewStatusLocation>None</ViewStatusLocation>
+											<SearchControlLocation>None</SearchControlLocation>
+											<RowFilter xsi:nil="true"/>
+											<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеКонтекстноеМеню" id="436"/>
+											<AutoCommandBar name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеКоманднаяПанель" id="437"/>
+											<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеРасширеннаяПодсказка" id="438"/>
+											<SearchStringAddition name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСтрокаПоиска" id="439">
+												<AdditionSource>
+													<Item>ПоказателиСовокупнойТарифнойСтавкиВыбранные</Item>
+													<Type>SearchStringRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСтрокаПоискаКонтекстноеМеню" id="442"/>
+												<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСтрокаПоискаРасширеннаяПодсказка" id="443"/>
+											</SearchStringAddition>
+											<ViewStatusAddition name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСостояниеПросмотра" id="444">
+												<AdditionSource>
+													<Item>ПоказателиСовокупнойТарифнойСтавкиВыбранные</Item>
+													<Type>ViewStatusRepresentation</Type>
+												</AdditionSource>
+												<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСостояниеПросмотраКонтекстноеМеню" id="447"/>
+												<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСостояниеПросмотраРасширеннаяПодсказка" id="448"/>
+											</ViewStatusAddition>
+											<SearchControlAddition name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеУправлениеПоиском" id="449">
+												<AdditionSource>
+													<Item>ПоказателиСовокупнойТарифнойСтавкиВыбранные</Item>
+													<Type>SearchControl</Type>
+												</AdditionSource>
+												<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеУправлениеПоискомКонтекстноеМеню" id="452"/>
+												<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеУправлениеПоискомРасширеннаяПодсказка" id="453"/>
+											</SearchControlAddition>
+											<ChildItems>
+												<CheckBoxField name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеВыбран" id="466">
+													<UserVisible>
+														<xr:Common>false</xr:Common>
+													</UserVisible>
+													<EditMode>EnterOnInput</EditMode>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеВыбранКонтекстноеМеню" id="467"/>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеВыбранРасширеннаяПодсказка" id="468"/>
+												</CheckBoxField>
+												<InputField name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеПоказатель" id="457">
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеПоказательКонтекстноеМеню" id="458"/>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеПоказательРасширеннаяПодсказка" id="459"/>
+												</InputField>
+											</ChildItems>
+										</Table>
+									</ChildItems>
+								</UsualGroup>
+								<LabelDecoration name="ПояснениеПоказателиСовокупнойТарифнойСтавки" id="366">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>75</MaxWidth>
+									<TextColor>style:ПоясняющийТекст</TextColor>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>При пересчете для оплаты сверхурочных и др. можно использовать тарифную ставку, состоящую из нескольких показателей. Такая совокупная тарифная ставка будет автоматически рассчитываться в кадровых документах с учетом значений отмеченных в этом списке показателей.</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ПояснениеПоказателиСовокупнойТарифнойСтавкиКонтекстноеМеню" id="367"/>
+									<ExtendedTooltip name="ПояснениеПоказателиСовокупнойТарифнойСтавкиРасширеннаяПодсказка" id="368"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаГрафикиРаботы" id="308">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>При изменении нормы времени из-за смены графика работы не с первого числа месяца, считать норму времени</v8:content>
+						</v8:item>
+					</Title>
+					<Width>70</Width>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаГрафикиРаботыРасширеннаяПодсказка" id="309"/>
+					<ChildItems>
+						<RadioButtonField name="ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботыПереключатель" id="316">
+							<TitleLocation>None</TitleLocation>
+							<RadioButtonType>Auto</RadioButtonType>
+							<ColumnsCount>1</ColumnsCount>
+							<ChoiceList>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Исходя из графиков работы до и после изменения</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">0</Value>
+									</xr:Value>
+								</xr:Item>
+								<xr:Item>
+									<xr:Presentation/>
+									<xr:CheckState>0</xr:CheckState>
+									<xr:Value xsi:type="FormChoiceListDesTimeValue">
+										<Presentation>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Исходя из индивидуального графика работы</v8:content>
+											</v8:item>
+										</Presentation>
+										<Value xsi:type="xs:decimal">1</Value>
+									</xr:Value>
+								</xr:Item>
+							</ChoiceList>
+							<ContextMenu name="ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботыПереключательКонтекстноеМеню" id="317"/>
+							<ExtendedTooltip name="ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботыПереключательРасширеннаяПодсказка" id="318"/>
+						</RadioButtonField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКомпенсацияЗаЗадержкуЗарплаты" id="546">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Компенсация за задержку зарплаты</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКомпенсацияЗаЗадержкуЗарплатыРасширеннаяПодсказка" id="547"/>
+					<ChildItems>
+						<CheckBoxField name="РегистрироватьКомпенсациюЗаЗадержкуЗарплатыВДоходахСтраховыхВзносов" id="548">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Регистрировать компенсацию за задержку выплаты зарплаты как облагаемый страховыми взносами доход</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Денежная компенсация, выплачиваемая работнику организацией-работодателем за нарушение установленного срока выплаты заработной платы, включается в базу для начисления страховых взносов.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="РегистрироватьКомпенсациюЗаЗадержкуЗарплатыВДоходахСтраховыхВзносовКонтекстноеМеню" id="549"/>
+							<ExtendedTooltip name="РегистрироватьКомпенсациюЗаЗадержкуЗарплатыВДоходахСтраховыхВзносовРасширеннаяПодсказка" id="550">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+							</ExtendedTooltip>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаНастройкиВзаиморасчетов" id="519">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки взаиморасчетов</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНастройкиВзаиморасчетовРасширеннаяПодсказка" id="520"/>
+					<ChildItems>
+						<CheckBoxField name="ПроверятьЗаполнениеФинансированияВВедомостях" id="521">
+							<TitleLocation>Right</TitleLocation>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПроверятьЗаполнениеФинансированияВВедомостяхКонтекстноеМеню" id="522"/>
+							<ExtendedTooltip name="ПроверятьЗаполнениеФинансированияВВедомостяхРасширеннаяПодсказка" id="523">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Включите, если ведомости на выплату зарплаты ведутся по источникам финансирования.
+Заполнение финансирования будет обязательным.
+</v8:content>
+									</v8:item>
+								</Title>
+							</ExtendedTooltip>
+						</CheckBoxField>
+						<CheckBoxField name="ПроверятьСоответствиеНачисленийИВыплат" id="561">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ПроверятьСоответствиеНачисленийИВыплатКонтекстноеМеню" id="562"/>
+							<ExtendedTooltip name="ПроверятьСоответствиеНачисленийИВыплатРасширеннаяПодсказка" id="563"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаОграничениеИспользованияДокументов" id="509">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ограничение использования документов</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОграничениеИспользованияДокументовРасширеннаяПодсказка" id="510"/>
+					<ChildItems>
+						<CheckBoxField name="АвтоматическиОграничиватьИспользованиеДокументов" id="511">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Автоматически защищать платежные документы от редактирования после выгрузки из системы</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="АвтоматическиОграничиватьИспользованиеДокументовКонтекстноеМеню" id="512"/>
+							<ExtendedTooltip name="АвтоматическиОграничиватьИспользованиеДокументовРасширеннаяПодсказка" id="513"/>
+						</CheckBoxField>
+						<LabelDecoration name="ДекорацияПояснениеОграниченияИспользованияДокументов" id="514">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Например, после отправки файла ведомости в банк, документ «Ведомость в банк» будет защищен от редактирования и от повторной отправки в банк.</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="ДекорацияПояснениеОграниченияИспользованияДокументовКонтекстноеМеню" id="515"/>
+							<ExtendedTooltip name="ДекорацияПояснениеОграниченияИспользованияДокументовРасширеннаяПодсказка" id="516"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаНастроекДоначисленийПерерасчетов" id="524">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настроек доначислений перерасчетов</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаНастроекДоначисленийПерерасчетовРасширеннаяПодсказка" id="525"/>
+					<ChildItems>
+						<CheckBoxField name="ВыполнятьДоначислениеПерерасчетЗарплатыОтдельнымДокументом" id="535">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ВыполнятьДоначислениеПерерасчетЗарплатыОтдельнымДокументомКонтекстноеМеню" id="536"/>
+							<ExtendedTooltip name="ВыполнятьДоначислениеПерерасчетЗарплатыОтдельнымДокументомРасширеннаяПодсказка" id="537"/>
+						</CheckBoxField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаГрантыНеоблагаемыеНДФЛ" id="517">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Гранты необлагаемые НДФЛ</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>NormalSeparation</Representation>
+					<United>false</United>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаГрантыНеоблагаемыеНДФЛРасширеннаяПодсказка" id="518"/>
+				</UsualGroup>
+				<UsualGroup name="ГруппаСтавкиМеждународныхДоговоров" id="564">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ставки международных договоров</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСтавкиМеждународныхДоговоровРасширеннаяПодсказка" id="565"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользуютсяСтавкиМеждународныхДоговоров" id="566">
+							<TitleLocation>Right</TitleLocation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользуютсяСтавкиМеждународныхДоговоровКонтекстноеМеню" id="567"/>
+							<ExtendedTooltip name="ИспользуютсяСтавкиМеждународныхДоговоровРасширеннаяПодсказка" id="568"/>
+						</CheckBoxField>
+						<LabelDecoration name="ДекорацияПояснениеИспользованияСтавкиМеждународныхДоговоров" id="532">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>75</MaxWidth>
+							<TextColor>style:ПоясняющийТекст</TextColor>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Исчисляется налог с доходов нерезидентов РФ по ставкам предусмотренным международными договорами РФ об избежании двойного налогообложения (п.1  ст. 7 НК РФ).</v8:content>
+								</v8:item>
+							</Title>
+							<VerticalAlign>Top</VerticalAlign>
+							<ContextMenu name="ДекорацияПояснениеИспользованияСтавкиМеждународныхДоговоровКонтекстноеМеню" id="533"/>
+							<ExtendedTooltip name="ДекорацияПояснениеИспользованияСтавкиМеждународныхДоговоровРасширеннаяПодсказка" id="534"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКлючевыеПоказателиЭффективностиГруппа" id="604">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ключевые показатели эффективности</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа ключевые показатели эффективности группа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="ГруппаКлючевыеПоказателиЭффективностиГруппаРасширеннаяПодсказка" id="605"/>
+					<ChildItems>
+						<CheckBoxField name="ИспользоватьКлючевыеПоказателиЭффективности" id="606">
+							<DataPath>КонстантыНабор.ИспользоватьКлючевыеПоказателиЭффективности</DataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Используется оценка эффективности по ключевым показателям</v8:content>
+								</v8:item>
+							</Title>
+							<TitleLocation>Right</TitleLocation>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Оценка результативности сотрудников и подразделений за счет определения целей,  выделения измеримых показателей деятельности, ввода плановых и фактических значений.
+Полученная оценка результативности может быть использована при расчете заработной платы.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ИспользоватьКлючевыеПоказателиЭффективностиКонтекстноеМеню" id="607"/>
+							<ExtendedTooltip name="ИспользоватьКлючевыеПоказателиЭффективностиРасширеннаяПодсказка" id="608">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+							</ExtendedTooltip>
+							<Events>
+								<Event name="OnChange" callType="Override">ИспользоватьКлючевыеПоказателиЭффективностиПриИзменении</Event>
+							</Events>
+						</CheckBoxField>
+						<UsualGroup name="ГоризонтыKPIГруппа" id="609">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Горизонты KPI группа</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<VerticalSpacing>Half</VerticalSpacing>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГоризонтыKPIГруппаРасширеннаяПодсказка" id="610"/>
+							<ChildItems>
+								<UsualGroup name="ПереключателиKPIГруппа" id="611">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Переключатели KPI группа</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+									<HorizontalStretch>false</HorizontalStretch>
+									<Group>Vertical</Group>
+									<VerticalSpacing>Half</VerticalSpacing>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ПереключателиKPIГруппаРасширеннаяПодсказка" id="612">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>По умолчанию используется только ежемесячная оценка эффективности сотрудников.
+Если вы хотите использовать и другие горизонты оценки (квартал, полугодие, год) - включите эту опцию.</v8:content>
+											</v8:item>
+										</Title>
+									</ExtendedTooltip>
+									<ChildItems>
+										<CheckBoxField name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьРазныеГоризонтыОценки" id="613">
+											<DataPath>НастройкиКлючевыхПоказателейЭффективности.ИспользоватьДолгосрочныеГоризонтыОценки</DataPath>
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьРазныеГоризонтыОценкиКонтекстноеМеню" id="614"/>
+											<ExtendedTooltip name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьРазныеГоризонтыОценкиРасширеннаяПодсказка" id="615"/>
+											<Events>
+												<Event name="OnChange" callType="Before">НастройкиКлючевыхПоказателейЭффективностиИспользоватьРазныеГоризонтыОценкиПриИзменении</Event>
+											</Events>
+										</CheckBoxField>
+										<UsualGroup name="ПереключателиДополнительныхГоризонтовKPIГруппа" id="616">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Переключатели дополнительных горизонтов KPI группа</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalStretch>true</HorizontalStretch>
+											<Group>Horizontal</Group>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ПереключателиДополнительныхГоризонтовKPIГруппаРасширеннаяПодсказка" id="617"/>
+											<ChildItems>
+												<CheckBoxField name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтКвартал" id="618">
+													<DataPath>НастройкиКлючевыхПоказателейЭффективности.ИспользоватьГоризонтКвартал</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Квартал</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтКварталКонтекстноеМеню" id="619"/>
+													<ExtendedTooltip name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтКварталРасширеннаяПодсказка" id="620"/>
+													<Events>
+														<Event name="OnChange" callType="Before">НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтКварталПриИзменении</Event>
+													</Events>
+												</CheckBoxField>
+												<CheckBoxField name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтПолугодие" id="621">
+													<DataPath>НастройкиКлючевыхПоказателейЭффективности.ИспользоватьГоризонтПолугодие</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Полугодие</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтПолугодиеКонтекстноеМеню" id="622"/>
+													<ExtendedTooltip name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтПолугодиеРасширеннаяПодсказка" id="623"/>
+													<Events>
+														<Event name="OnChange" callType="Before">НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтПолугодиеПриИзменении</Event>
+													</Events>
+												</CheckBoxField>
+												<CheckBoxField name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтГод" id="624">
+													<DataPath>НастройкиКлючевыхПоказателейЭффективности.ИспользоватьГоризонтГод</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Год</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтГодКонтекстноеМеню" id="625"/>
+													<ExtendedTooltip name="НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтГодРасширеннаяПодсказка" id="626"/>
+													<Events>
+														<Event name="OnChange" callType="Before">НастройкиКлючевыхПоказателейЭффективностиИспользоватьГоризонтГодПриИзменении</Event>
+													</Events>
+												</CheckBoxField>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="РедактированиеПрочихНастроекРасчетаЗарплаты" id="387">
+			<Type>Hyperlink</Type>
+			<CommandName>0</CommandName>
+			<ExtendedTooltip name="РедактированиеПрочихНастроекРасчетаЗарплатыРасширеннаяПодсказка" id="388"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="КонстантыНабор" id="1000001">
+			<Type>
+				<v8:Type>cfg:ConstantsSet</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НастройкиКлючевыхПоказателейЭффективностиПрежняя" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки ключевых показателей эффективности прежняя</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.НастройкиКлючевыхПоказателейЭффективности</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="НастройкиКлючевыхПоказателейЭффективности" id="1000003">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки ключевых показателей эффективности</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:InformationRegisterRecordManager.НастройкиКлючевыхПоказателейЭффективности</v8:Type>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.12">
+		<Customizable>false</Customizable>
+		<CommandBarLocation>None</CommandBarLocation>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<Button name="НастройкиРасчетаЗарплаты" id="496">
+				<Type>UsualButton</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="НастройкиРасчетаЗарплатыРасширеннаяПодсказка" id="497"/>
+			</Button>
+			<UsualGroup name="ГруппаЗаголовок" id="411">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Заголовок</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаЗаголовокРасширеннаяПодсказка" id="412"/>
+				<ChildItems>
+					<LabelDecoration name="ОписаниеРаздела" id="80">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройки расчета зарплаты, учета отработанного времени, отсутствий на работе</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ОписаниеРазделаКонтекстноеМеню" id="81"/>
+						<ExtendedTooltip name="ОписаниеРазделаExtendedTooltip" id="271"/>
+					</LabelDecoration>
+					<CommandBar name="ГруппаСправка" id="423">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Справка</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаСправкаРасширеннаяПодсказка" id="424"/>
+						<ChildItems>
+							<Button name="Справка" id="421">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="422"/>
+							</Button>
+						</ChildItems>
+					</CommandBar>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаИспользоватьРасчетЗарплаты" id="258">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Использовать расчет зарплаты</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Representation>NormalSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаИспользоватьРасчетЗарплатыExtendedTooltip" id="272"/>
+				<ChildItems>
+					<CheckBoxField name="ИспользоватьНачислениеЗарплаты" id="245">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Использовать программу для расчета заработной платы</v8:content>
+							</v8:item>
+						</Title>
+						<TitleLocation>Right</TitleLocation>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="ИспользоватьНачислениеЗарплатыКонтекстноеМеню" id="246"/>
+						<ExtendedTooltip name="ИспользоватьНачислениеЗарплатыРасширеннаяПодсказка" id="273"/>
+					</CheckBoxField>
+					<LabelDecoration name="ПояснениеИспользоватьНачислениеЗарплаты" id="98">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>75</MaxWidth>
+						<TextColor>style:ПоясняющийТекст</TextColor>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Если программу планируется использовать только для ведения кадрового учета или штатного расписания предприятия, снимите этот флажок.</v8:content>
+							</v8:item>
+						</Title>
+						<VerticalAlign>Top</VerticalAlign>
+						<ContextMenu name="ПояснениеИспользоватьНачислениеЗарплатыКонтекстноеМеню" id="99"/>
+						<ExtendedTooltip name="ПояснениеИспользоватьНачислениеЗарплатыExtendedTooltip" id="274"/>
+					</LabelDecoration>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаНастройки" id="100">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Настройки</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Representation>NormalSeparation</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаНастройкиExtendedTooltip" id="275"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаНастройкаНачислений" id="389">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройка начислений</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаНастройкаНачисленийРасширеннаяПодсказка" id="390"/>
+						<ChildItems>
+							<Button name="НастройкаНачисленийУдержаний" id="228">
+								<Type>Hyperlink</Type>
+								<CommandName>0</CommandName>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Настройка состава начислений и удержаний</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="НастройкаНачисленийУдержанийExtendedTooltip" id="276"/>
+							</Button>
+							<LabelDecoration name="НастройкаНачисленийУдержанийОписание" id="269">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Управление составом используемых начислений и удержаний, таких как: почасовая оплата, оплаты командировок, удержание профсоюзных взносов и т.д.</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="НастройкаНачисленийУдержанийОписаниеКонтекстноеМеню" id="270"/>
+								<ExtendedTooltip name="НастройкаНачисленийУдержанийОписаниеРасширеннаяПодсказка" id="277"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаСтатьиФинансированияСтатистикаПерсонала" id="319">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Статьи финансирования статистика персонала</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаСтатьиФинансированияСтатистикаПерсоналаРасширеннаяПодсказка" id="320"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаИспользоватьУчетПоСтатьямФинансирования" id="324">
+								<Visible>false</Visible>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использовать учет по статьям финансирования</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаИспользоватьУчетПоСтатьямФинансированияРасширеннаяПодсказка" id="325"/>
+								<ChildItems>
+									<CheckBoxField name="ИспользоватьСтатьиФинансирования" id="321">
+										<TitleLocation>Right</TitleLocation>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ИспользоватьСтатьиФинансированияКонтекстноеМеню" id="322"/>
+										<ExtendedTooltip name="ИспользоватьСтатьиФинансированияРасширеннаяПодсказка" id="323"/>
+									</CheckBoxField>
+									<LabelField name="ИспользоватьСтатьиФинансированияОписание" id="340">
+										<TitleLocation>None</TitleLocation>
+										<VerticalAlign>Top</VerticalAlign>
+										<Width>35</Width>
+										<Height>5</Height>
+										<HorizontalStretch>false</HorizontalStretch>
+										<VerticalStretch>false</VerticalStretch>
+										<TextColor>style:ПоясняющийТекст</TextColor>
+										<ContextMenu name="ИспользоватьСтатьиФинансированияОписаниеКонтекстноеМеню" id="341"/>
+										<ExtendedTooltip name="ИспользоватьСтатьиФинансированияОписаниеРасширеннаяПодсказка" id="342"/>
+									</LabelField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаНастройкиСтатистикиПерсонала" id="329">
+								<Visible>false</Visible>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Настройки статистики персонала</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаНастройкиСтатистикиПерсоналаРасширеннаяПодсказка" id="330"/>
+								<ChildItems>
+									<CheckBoxField name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферы" id="334">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Предприятие социальной сферы</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>Right</TitleLocation>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферыКонтекстноеМеню" id="335"/>
+										<ExtendedTooltip name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферыРасширеннаяПодсказка" id="336"/>
+									</CheckBoxField>
+									<LabelDecoration name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферыОписание" id="331">
+										<Width>40</Width>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<MaxHeight>4</MaxHeight>
+										<TextColor>style:ПоясняющийТекст</TextColor>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Если ваше предприятие относится к социальной сфере и сдает статистическую отчетность по мониторингу численности и зарплаты работников социальной сферы (формы ЗП), укажите вид своего предприятия.</v8:content>
+											</v8:item>
+										</Title>
+										<VerticalAlign>Top</VerticalAlign>
+										<ContextMenu name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферыОписаниеКонтекстноеМеню" id="332"/>
+										<ExtendedTooltip name="ИспользоватьОтчетностьМониторингаРаботниковСоциальнойСферыОписаниеРасширеннаяПодсказка" id="333"/>
+									</LabelDecoration>
+									<InputField name="ФормаОтчетностиМониторингаРаботниковСоциальнойСферы" id="337">
+										<TitleLocation>None</TitleLocation>
+										<ContextMenu name="ФормаОтчетностиМониторингаРаботниковСоциальнойСферыКонтекстноеМеню" id="338"/>
+										<ExtendedTooltip name="ФормаОтчетностиМониторингаРаботниковСоциальнойСферыРасширеннаяПодсказка" id="339"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаИспользованиеИФО" id="343">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Использование ИФО</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаИспользованиеИФОРасширеннаяПодсказка" id="344"/>
+						<ChildItems>
+							<LabelField name="ИспользоватьИФООписание" id="345">
+								<TitleLocation>None</TitleLocation>
+								<Width>70</Width>
+								<Height>2</Height>
+								<HorizontalStretch>false</HorizontalStretch>
+								<VerticalStretch>false</VerticalStretch>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<ContextMenu name="ИспользоватьИФООписаниеКонтекстноеМеню" id="346"/>
+								<ExtendedTooltip name="ИспользоватьИФООписаниеРасширеннаяПодсказка" id="347"/>
+							</LabelField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаРасчетПоОрганизации" id="247">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Расчет по организации</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаРасчетПоОрганизацииExtendedTooltip" id="278"/>
+						<ChildItems>
+							<CheckBoxField name="НеВыполнятьРасчетЗарплатыПоПодразделениям" id="252">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Расчет и выплата зарплаты выполняется по организации в целом</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="НеВыполнятьРасчетЗарплатыПоПодразделениямКонтекстноеМеню" id="253"/>
+								<ExtendedTooltip name="НеВыполнятьРасчетЗарплатыПоПодразделениямExtendedTooltip" id="279"/>
+							</CheckBoxField>
+							<LabelDecoration name="ИнфоНадписьРасчетЗарплатыПоПодразделениям" id="250">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Возможность выполнять расчет и выплату зарплаты по всей организации сразу, не вводя несколько документов по разным подразделениям.</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ИнфоНадписьРасчетЗарплатыПоПодразделениямКонтекстноеМеню" id="251"/>
+								<ExtendedTooltip name="ИнфоНадписьРасчетЗарплатыПоПодразделениямExtendedTooltip" id="280"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаРассчитыватьДокументыПриРедактировании" id="379">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Рассчитывать документы при редактировании</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаРассчитыватьДокументыПриРедактированииРасширеннаяПодсказка" id="380"/>
+						<ChildItems>
+							<CheckBoxField name="РассчитыватьДокументыПриРедактировании" id="381">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="РассчитыватьДокументыПриРедактированииКонтекстноеМеню" id="382"/>
+								<ExtendedTooltip name="РассчитыватьДокументыПриРедактированииРасширеннаяПодсказка" id="383"/>
+							</CheckBoxField>
+							<LabelDecoration name="ИнфоНадписьРассчитыватьДокументыПриРедактировании" id="384">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выполнение автоматического пересчета сразу при редактировании документа. Если производительности вашего компьютера или сервера, на котором установлена программа, недостаточно и автоматический пересчет документа выполняется с большими задержками, не используйте эту возможность. Пересчет документов можно будет выполнять кнопкой "Пересчитать".</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ИнфоНадписьРассчитыватьДокументыПриРедактированииКонтекстноеМеню" id="385"/>
+								<ExtendedTooltip name="ИнфоНадписьРассчитыватьДокументыПриРедактированииРасширеннаяПодсказка" id="386"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаОтОбратного" id="588">
+						<Group>Vertical</Group>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаОтОбратногоРасширеннаяПодсказка" id="589"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьРасчетыОтОбратного" id="590">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использовать расчеты "от обратного"</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьРасчетыОтОбратногоКонтекстноеМеню" id="591"/>
+								<ExtendedTooltip name="ИспользоватьРасчетыОтОбратногоРасширеннаяПодсказка" id="592"/>
+							</CheckBoxField>
+							<LabelDecoration name="ИнфоНадписьРасчетыОтОбратного" id="593">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Позволяет использовать начисления, результатом расчета которых является сумма, увеличенная на сумму компенсации удержаний.</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ИнфоНадписьРасчетыОтОбратногоКонтекстноеМеню" id="594"/>
+								<ExtendedTooltip name="ИнфоНадписьРасчетыОтОбратногоРасширеннаяПодсказка" id="595"/>
+							</LabelDecoration>
+							<UsualGroup name="ГруппаКомментарийИспользоватьРасчетОтОбратного" id="596">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Комментарий использовать подразделения</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа комментарий использовать расчет от обратного</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаКомментарийИспользоватьРасчетОтОбратногоРасширеннаяПодсказка" id="597"/>
+								<ChildItems>
+									<PictureDecoration name="Декорация20" id="598">
+										<FileDragMode>AsFile</FileDragMode>
+										<ContextMenu name="Декорация20КонтекстноеМеню" id="599"/>
+										<ExtendedTooltip name="Декорация20ExtendedTooltip" id="600"/>
+									</PictureDecoration>
+									<LabelDecoration name="КомментарийИспользоватьРасчетыОтОбратного" id="601">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Начисления "от обратного" используются в программе, для отключения настройки необходимо отменить плановые начисления сотрудников с видом "от обратного".</v8:content>
+											</v8:item>
+										</Title>
+										<VerticalAlign>Top</VerticalAlign>
+										<ContextMenu name="КомментарийИспользоватьРасчетыОтОбратногоКонтекстноеМеню" id="602"/>
+										<ExtendedTooltip name="КомментарийИспользоватьРасчетыОтОбратногоРасширеннаяПодсказка" id="603"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаИндексация" id="259">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Индексация</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаИндексацияExtendedTooltip" id="281"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьИндексациюЗаработка" id="8">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выполняется индексация заработка сотрудников</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьИндексациюЗаработкаКонтекстноеМеню" id="9"/>
+								<ExtendedTooltip name="ИспользоватьИндексациюЗаработкаExtendedTooltip" id="282"/>
+							</CheckBoxField>
+							<LabelField name="ИспользоватьИндексациюЗаработкаИнфоТекст" id="391">
+								<TitleLocation>None</TitleLocation>
+								<Width>70</Width>
+								<Height>2</Height>
+								<HorizontalStretch>false</HorizontalStretch>
+								<VerticalStretch>false</VerticalStretch>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<ContextMenu name="ИспользоватьИндексациюЗаработкаИнфоТекстКонтекстноеМеню" id="392"/>
+								<ExtendedTooltip name="ИспользоватьИндексациюЗаработкаИнфоТекстРасширеннаяПодсказка" id="393"/>
+							</LabelField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаЗаймы" id="268">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Займы</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаЗаймыExtendedTooltip" id="287"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьЗаймыСотрудникам" id="221">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выдаются займы сотрудникам</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьЗаймыСотрудникамКонтекстноеМеню" id="222"/>
+								<ExtendedTooltip name="ИспользоватьЗаймыСотрудникамExtendedTooltip" id="288"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация5" id="239">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Если на предприятии выдаются займы сотрудникам, их необходимо регистрировать не только для целей погашения займа из зарплаты, но и для регистрации материальной выгоды в случае применения пониженного процента по займу.</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="Декорация5КонтекстноеМеню" id="240"/>
+								<ExtendedTooltip name="Декорация5ExtendedTooltip" id="289"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаДоговоры" id="266">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Договоры</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаДоговорыExtendedTooltip" id="290"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьНачисленияПоДоговорам" id="219">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Регистрируются выплаты по договорам гражданско-правового характера</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьНачисленияПоДоговорамКонтекстноеМеню" id="220"/>
+								<ExtendedTooltip name="ИспользоватьНачисленияПоДоговорамExtendedTooltip" id="291"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация2" id="233">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Наряду с трудовыми договорами с сотрудниками могут заключаться договоры гражданско-правового характера. Как правило, это договоры на выполнение конкретного объема работ в определенный срок.</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="Декорация2КонтекстноеМеню" id="234"/>
+								<ExtendedTooltip name="Декорация2ExtendedTooltip" id="292"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаПрочиеДоходы" id="261">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Прочие доходы</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПрочиеДоходыExtendedTooltip" id="296"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьРегистрациюПрочихДоходов" id="225">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Регистрируются прочие доходы физических лиц, не связанные с оплатой труда</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьРегистрациюПрочихДоходовКонтекстноеМеню" id="226"/>
+								<ExtendedTooltip name="ИспользоватьРегистрациюПрочихДоходовExtendedTooltip" id="297"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация3" id="235">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>На предприятии могут выплачиваться доходы сторонним физическим лицам (аренда автотранспорта, выплата призов и т.д.) </v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="Декорация3КонтекстноеМеню" id="236"/>
+								<ExtendedTooltip name="Декорация3ExtendedTooltip" id="298"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаБывшиеСотрудники" id="262">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Бывшие сотрудники</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаБывшиеСотрудникиExtendedTooltip" id="299"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьВыплатыБывшимСотрудникам" id="223">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплачиваются доходы бывшим сотрудникам предприятия</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьВыплатыБывшимСотрудникамКонтекстноеМеню" id="224"/>
+								<ExtendedTooltip name="ИспользоватьВыплатыБывшимСотрудникамExtendedTooltip" id="300"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация4" id="237">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выплаты бывшим сотрудникам, такие как выплата материальной помощи пенсионерам, также необходимо фиксировать в программе (для формирования налоговой отчетности и т.п.)</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="Декорация4КонтекстноеМеню" id="238"/>
+								<ExtendedTooltip name="Декорация4ExtendedTooltip" id="301"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаИспользоватьВедомостиДляВыплатыПрочихДоходов" id="551">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Использовать ведомости для выплаты прочих доходов</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаИспользоватьВедомостиДляВыплатыПрочихДоходовРасширеннаяПодсказка" id="552"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьВедомостиДляВыплатыПрочихДоходов" id="553">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьВедомостиДляВыплатыПрочихДоходовКонтекстноеМеню" id="554"/>
+								<ExtendedTooltip name="ИспользоватьВедомостиДляВыплатыПрочихДоходовРасширеннаяПодсказка" id="555"/>
+							</CheckBoxField>
+							<LabelDecoration name="ИспользоватьВедомостиДляВыплатыПрочихДоходовОписание" id="558">
+								<Width>75</Width>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использовать ведомости для регистрации выплат прочих доходов физических лиц</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ИспользоватьВедомостиДляВыплатыПрочихДоходовОписаниеКонтекстноеМеню" id="559"/>
+								<ExtendedTooltip name="ИспользоватьВедомостиДляВыплатыПрочихДоходовОписаниеРасширеннаяПодсказка" id="560"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаТарифныеСетки" id="371">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Тарифные сетки</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаТарифныеСеткиРасширеннаяПодсказка" id="372"/>
+						<ChildItems>
+							<CheckBoxField name="НастройкиРасчетаЗарплатыИспользоватьТарифныеСеткиПриРасчетеЗарплаты" id="373">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Используются тарифные группы</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="НастройкиРасчетаЗарплатыИспользоватьТарифныеСеткиПриРасчетеЗарплатыКонтекстноеМеню" id="374"/>
+								<ExtendedTooltip name="НастройкиРасчетаЗарплатыИспользоватьТарифныеСеткиПриРасчетеЗарплатыРасширеннаяПодсказка" id="375"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация10" id="376">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использование разрядов (квалификационных категорий) сотрудников и тарифных групп при описании позиции штатного расписания и при расчете заработной платы.</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="Декорация10КонтекстноеМеню" id="377"/>
+								<ExtendedTooltip name="Декорация10РасширеннаяПодсказка" id="378"/>
+							</LabelDecoration>
+							<LabelField name="ИспользоватьКвалификационнуюНадбавкуОписание" id="408">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использование квалификационных категорий и квалификационных надбавок при описании позиции штатного расписания и при расчете заработной платы</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>None</TitleLocation>
+								<Width>70</Width>
+								<Height>2</Height>
+								<HorizontalStretch>false</HorizontalStretch>
+								<VerticalStretch>false</VerticalStretch>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<ContextMenu name="ИспользоватьКвалификационнуюНадбавкуОписаниеКонтекстноеМеню" id="409"/>
+								<ExtendedTooltip name="ИспользоватьКвалификационнуюНадбавкуОписаниеРасширеннаяПодсказка" id="410"/>
+							</LabelField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаИзменениеПКУВКадровыхДокументах" id="498">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Изменение ПКУВ кадровых документах</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаИзменениеПКУВКадровыхДокументахРасширеннаяПодсказка" id="499"/>
+						<ChildItems>
+							<CheckBoxField name="РазрешеноИзменениеПКУВКадровыхДокументах" id="500">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="РазрешеноИзменениеПКУВКадровыхДокументахКонтекстноеМеню" id="501"/>
+								<ExtendedTooltip name="РазрешеноИзменениеПКУВКадровыхДокументахРасширеннаяПодсказка" id="502"/>
+							</CheckBoxField>
+							<LabelField name="РазрешеноИзменениеПКУВКадровыхДокументахИнфоНадпись" id="506">
+								<TitleLocation>None</TitleLocation>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<ContextMenu name="РазрешеноИзменениеПКУВКадровыхДокументахИнфоНадписьКонтекстноеМеню" id="507"/>
+								<ExtendedTooltip name="РазрешеноИзменениеПКУВКадровыхДокументахИнфоНадписьРасширеннаяПодсказка" id="508"/>
+							</LabelField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаНесколькоСтавок" id="260">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Несколько ставок</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаНесколькоСтавокExtendedTooltip" id="293"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьНесколькоТарифныхСтавок" id="254">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Используется несколько тарифных ставок для одного сотрудника</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьНесколькоТарифныхСтавокКонтекстноеМеню" id="255"/>
+								<ExtendedTooltip name="ИспользоватьНесколькоТарифныхСтавокExtendedTooltip" id="294"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация7" id="256">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использование одновременно нескольких тарифных ставок для одного сотрудника может применяться, например, при оплате по другому тарифу времени ремонта для водителей, дней в пути при работе вахтовым методом и т.п.</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="Декорация7КонтекстноеМеню" id="257"/>
+								<ExtendedTooltip name="Декорация7ExtendedTooltip" id="295"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаИспользоватьКраткосрочныеИзмененияОплатыТрудаВЗависимостиОтВыполняемойРаботы" id="480">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Использовать краткосрочные изменения оплаты труда в зависимости от выполняемой работы</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаИспользоватьКраткосрочныеИзмененияОплатыТрудаВЗависимостиОтВыполняемойРаботыРасширеннаяПодсказка" id="481"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьКраткосрочныеИзмененияОплатыТрудаВЗависимостиОтВыполняемойРаботы" id="482">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Используются краткосрочные изменения оплаты труда в зависимости от выполняемой работы</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьКраткосрочныеИзмененияОплатыТрудаВЗависимостиОтВыполняемойРаботыКонтекстноеМеню" id="483"/>
+								<ExtendedTooltip name="ИспользоватьКраткосрочныеИзмененияОплатыТрудаВЗависимостиОтВыполняемойРаботыРасширеннаяПодсказка" id="484"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация11" id="485">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Применение краткосрочных изменений оплаты труда в зависимости от выполняемой сотрудниками работы.</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="Декорация11КонтекстноеМеню" id="486"/>
+								<ExtendedTooltip name="Декорация11РасширеннаяПодсказка" id="487"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаНесколькоВидовПлановогоВремени" id="425">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Несколько видов планового времени</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаНесколькоВидовПлановогоВремениExtendedTooltip" id="426"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьНесколькоВидовПлановогоВремени" id="427">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Используется несколько видов времени в графике работы</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьНесколькоВидовПлановогоВремениКонтекстноеМеню" id="428"/>
+								<ExtendedTooltip name="ИспользоватьНесколькоВидовПлановогоВремениExtendedTooltip" id="429"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация15" id="430">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Использование нескольких видов времени в графике работы может применяться, например, в графиках с несколькими плановыми видами работ (вахта-явка-время в пути и т.д.), или при использовании почасовой оплаты, если в течение одного рабочего дня (смены) необходимо регистрировать разные виды планового времени</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="Декорация15КонтекстноеМеню" id="431"/>
+								<ExtendedTooltip name="Декорация15ExtendedTooltip" id="432"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаПроверятьСоответствиеФактическогоВремениПлановому" id="472">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Проверять соответствие фактического времени плановому</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПроверятьСоответствиеФактическогоВремениПлановомуРасширеннаяПодсказка" id="473"/>
+						<ChildItems>
+							<CheckBoxField name="ПроверятьСоответствиеФактическогоВремениПлановому" id="474">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ПроверятьСоответствиеФактическогоВремениПлановомуКонтекстноеМеню" id="475"/>
+								<ExtendedTooltip name="ПроверятьСоответствиеФактическогоВремениПлановомуРасширеннаяПодсказка" id="476"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация6" id="477">
+								<Width>75</Width>
+								<ContextMenu name="Декорация6КонтекстноеМеню" id="478"/>
+								<ExtendedTooltip name="Декорация6РасширеннаяПодсказка" id="479"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="НастройкиУчетаВремениРасширенные" id="577">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройки учета времени расширенные</v8:content>
+							</v8:item>
+						</Title>
+						<Width>99</Width>
+						<HorizontalStretch>true</HorizontalStretch>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="НастройкиУчетаВремениРасширенныеРасширеннаяПодсказка" id="578"/>
+						<ChildItems>
+							<CheckBoxField name="НастройкиУчетаВремениИспользоватьРежимыРаботы" id="579">
+								<TitleLocation>Right</TitleLocation>
+								<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="НастройкиУчетаВремениИспользоватьРежимыРаботыКонтекстноеМеню" id="580"/>
+								<ExtendedTooltip name="НастройкиУчетаВремениИспользоватьРежимыРаботыРасширеннаяПодсказка" id="581">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>2</Height>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Режимы работы позволяют объединять несколько однотипных графиков.
+Могут использоваться в штатном расписании, обеспечивая более точный расчет ФОТ.
+</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</CheckBoxField>
+							<CheckBoxField name="НастройкиУчетаВремениИспользоватьСменыРаботы" id="582">
+								<TitleLocation>Right</TitleLocation>
+								<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="НастройкиУчетаВремениИспользоватьСменыРаботыКонтекстноеМеню" id="583"/>
+								<ExtendedTooltip name="НастройкиУчетаВремениИспользоватьСменыРаботыРасширеннаяПодсказка" id="584">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Включает использование смен в графиках работы и документах учета времени.
+Количество отработанных смен может быть использовано при расчете начислений.
+</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</CheckBoxField>
+							<CheckBoxField name="НастройкиУчетаВремениОтражатьЧасыВДеньНачалаСмены" id="585">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отражать часы смены, переходящие на следующие сутки в день начала смены</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="НастройкиУчетаВремениОтражатьЧасыВДеньНачалаСменыКонтекстноеМеню" id="586"/>
+								<ExtendedTooltip name="НастройкиУчетаВремениОтражатьЧасыВДеньНачалаСменыРасширеннаяПодсказка" id="587">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>При включении данной настройки, все время смены, включая время переходящее на следующие сутки, будет оплачено и отражено в Т-13, 
+в том месяце, к которому относится день начала смены.
+При оплате праздников, будет учтены только часы, фактически пришедшиеся на праздничный день.
+При необходимости, способ отражения конкретной смены для сотрудника, можно изменить в графике или табеле.  
+</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</CheckBoxField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаПризыПодарки" id="263">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Призы подарки</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПризыПодаркиExtendedTooltip" id="302"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользоватьПризыПодарки" id="190">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выдаются подарки и призы сотрудникам предприятия</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользоватьПризыПодаркиКонтекстноеМеню" id="191"/>
+								<ExtendedTooltip name="ИспользоватьПризыПодаркиExtendedTooltip" id="303"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация8" id="264">
+								<Visible>false</Visible>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>На предприятии в качестве поощрений сотрудников за трудовые успехи или к юбилейным датам выдаются подарки. При проведении конкурсов и других мероприятий сотрудникам выдаются призы.</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="Декорация8КонтекстноеМеню" id="265"/>
+								<ExtendedTooltip name="Декорация8ExtendedTooltip" id="304"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлаты" id="569">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ограничивать сумму удержаний процентом от заработной платы</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлатыРасширеннаяПодсказка" id="570"/>
+						<ChildItems>
+							<CheckBoxField name="ОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлаты" id="571">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлатыКонтекстноеМеню" id="572"/>
+								<ExtendedTooltip name="ОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлатыРасширеннаяПодсказка" id="573"/>
+							</CheckBoxField>
+							<LabelDecoration name="ДекорацияОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлаты" id="574">
+								<Width>75</Width>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Ограничивать общий размер удержаний процентом от заработной платы.</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ДекорацияОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлатыКонтекстноеМеню" id="575"/>
+								<ExtendedTooltip name="ДекорацияОграничиватьСуммуУдержанийПроцентомОтЗаработнойПлатыРасширеннаяПодсказка" id="576"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаПереноситьДанныеВДругойУчетСреднегоЗаработка" id="488">
+						<Visible>false</Visible>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Переносить данные в другой учет среднего заработка</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаПереноситьДанныеВДругойУчетСреднегоЗаработкаРасширеннаяПодсказка" id="489"/>
+						<ChildItems>
+							<CheckBoxField name="ПереноситьДанныеВДругойУчетСреднегоЗаработка" id="490">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сведения для расчета общего среднего заработка принимать к учету для расчета пособий (и наоборот)</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ПереноситьДанныеВДругойУчетСреднегоЗаработкаКонтекстноеМеню" id="491"/>
+								<ExtendedTooltip name="ПереноситьДанныеВДругойУчетСреднегоЗаработкаРасширеннаяПодсказка" id="492"/>
+							</CheckBoxField>
+							<LabelDecoration name="Декорация12" id="493">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Суммы начислений и данные об отработанном времени при проведении документов расчета общего среднего заработка будут скопированы в данные для расчета пособий, и, наоборот, при проведении документов расчета пособий введенные вручную сведения попадут в учет для расчета общего среднего заработка.</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="Декорация12КонтекстноеМеню" id="494"/>
+								<ExtendedTooltip name="Декорация12РасширеннаяПодсказка" id="495"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриема" id="538">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ограничивать начало расчетного периода среднего заработка датой приема</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриемаРасширеннаяПодсказка" id="539"/>
+						<ChildItems>
+							<CheckBoxField name="ОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриема" id="540">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриемаКонтекстноеМеню" id="541"/>
+								<ExtendedTooltip name="ОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриемаРасширеннаяПодсказка" id="542">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>75</MaxWidth>
+								</ExtendedTooltip>
+							</CheckBoxField>
+							<LabelDecoration name="ДекорацияОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриема" id="543">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>При расчете среднего заработка премии работников, принятых позже даты начала расчетного периода, пропорционально уменьшаются (поскольку расчетный период отработан не полностью). Если ограничить расчетный период датой приема, премии недавно принятых сотрудников будут учитываться в среднем заработке полностью. Изменение порядка определения расчетного периода должно быть оговорено в коллективном договоре.</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ДекорацияОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриемаКонтекстноеМеню" id="544"/>
+								<ExtendedTooltip name="ДекорацияОграничиватьНачалоРасчетногоПериодаСреднегоЗаработкаДатойПриемаРасширеннаяПодсказка" id="545"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаПорядокРасчетаСтоимостиЕдиницыВремени" id="14">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>При пересчете тарифной ставки сотрудника в стоимость часа (дня) использовать</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ExtendedTooltip name="ГруппаПорядокРасчетаСтоимостиЕдиницыВремениExtendedTooltip" id="305"/>
+						<ChildItems>
+							<RadioButtonField name="ПорядокРасчетаСтоимостиЕдиницыВремени" id="27">
+								<TitleLocation>None</TitleLocation>
+								<RadioButtonType>Auto</RadioButtonType>
+								<ColumnsCount>1</ColumnsCount>
+								<ChoiceList>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Среднемесячное количество часов (дней) в месяце</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда.EnumValue.ПоСреднегодовомуЗначению</Value>
+										</xr:Value>
+									</xr:Item>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Норму времени по графику сотрудника</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда.EnumValue.ПоНормеВремениГрафикаСотрудника</Value>
+										</xr:Value>
+									</xr:Item>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Норму времени по производственному календарю</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда.EnumValue.ПоНормеВремениПроизводственногоКалендаря</Value>
+										</xr:Value>
+									</xr:Item>
+								</ChoiceList>
+								<ContextMenu name="ПорядокРасчетаСтоимостиЕдиницыВремениКонтекстноеМеню" id="28"/>
+								<ExtendedTooltip name="ПорядокРасчетаСтоимостиЕдиницыВремениExtendedTooltip" id="306"/>
+							</RadioButtonField>
+							<LabelDecoration name="ПояснениеПорядокРасчетаСтоимостиЕдиницыВремени" id="29">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Пересчет тарифной ставки применяется, например, при оплате сверхурочных часов.</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ПояснениеПорядокРасчетаСтоимостиЕдиницыВремениКонтекстноеМеню" id="30"/>
+								<ExtendedTooltip name="ПояснениеПорядокРасчетаСтоимостиЕдиницыВремениExtendedTooltip" id="307"/>
+							</LabelDecoration>
+							<UsualGroup name="ГруппаПоказателиСовокупнойТарифнойСтавки" id="348">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Показатели, определяющие состав совокупной тарифной ставки</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Representation>None</Representation>
+								<ExtendedTooltip name="ГруппаПоказателиСовокупнойТарифнойСтавкиРасширеннаяПодсказка" id="349"/>
+								<ChildItems>
+									<UsualGroup name="ПоказателиСовокупнойТарифнойСтавкиГруппа" id="433">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Показатели совокупной тарифной ставки группа</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиГруппаРасширеннаяПодсказка" id="434"/>
+										<ChildItems>
+											<Table name="ПоказателиСовокупнойТарифнойСтавки" id="350">
+												<Representation>List</Representation>
+												<TitleLocation>Top</TitleLocation>
+												<CommandBarLocation>None</CommandBarLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>25</MaxWidth>
+												<AutoMaxHeight>false</AutoMaxHeight>
+												<HeightInTableRows>4</HeightInTableRows>
+												<Header>false</Header>
+												<HorizontalLines>false</HorizontalLines>
+												<VerticalLines>false</VerticalLines>
+												<AutoInsertNewRow>true</AutoInsertNewRow>
+												<VerticalStretch>false</VerticalStretch>
+												<EnableStartDrag>true</EnableStartDrag>
+												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Доступные показатели</v8:content>
+													</v8:item>
+												</Title>
+												<SearchStringLocation>None</SearchStringLocation>
+												<ViewStatusLocation>None</ViewStatusLocation>
+												<SearchControlLocation>None</SearchControlLocation>
+												<RowFilter xsi:nil="true"/>
+												<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиКонтекстноеМеню" id="351"/>
+												<AutoCommandBar name="ПоказателиСовокупнойТарифнойСтавкиКоманднаяПанель" id="352"/>
+												<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиРасширеннаяПодсказка" id="353"/>
+												<SearchStringAddition name="ПоказателиСовокупнойТарифнойСтавкиСтрокаПоиска" id="394">
+													<AdditionSource>
+														<Item>ПоказателиСовокупнойТарифнойСтавки</Item>
+														<Type>SearchStringRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиСтрокаПоискаКонтекстноеМеню" id="395"/>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиСтрокаПоискаРасширеннаяПодсказка" id="396"/>
+												</SearchStringAddition>
+												<ViewStatusAddition name="ПоказателиСовокупнойТарифнойСтавкиСостояниеПросмотра" id="397">
+													<AdditionSource>
+														<Item>ПоказателиСовокупнойТарифнойСтавки</Item>
+														<Type>ViewStatusRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиСостояниеПросмотраКонтекстноеМеню" id="398"/>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиСостояниеПросмотраРасширеннаяПодсказка" id="399"/>
+												</ViewStatusAddition>
+												<SearchControlAddition name="ПоказателиСовокупнойТарифнойСтавкиУправлениеПоиском" id="400">
+													<AdditionSource>
+														<Item>ПоказателиСовокупнойТарифнойСтавки</Item>
+														<Type>SearchControl</Type>
+													</AdditionSource>
+													<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиУправлениеПоискомКонтекстноеМеню" id="401"/>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиУправлениеПоискомРасширеннаяПодсказка" id="402"/>
+												</SearchControlAddition>
+												<ChildItems>
+													<CheckBoxField name="ПоказателиСовокупнойТарифнойСтавкиВыбран" id="469">
+														<UserVisible>
+															<xr:Common>false</xr:Common>
+														</UserVisible>
+														<EditMode>EnterOnInput</EditMode>
+														<CheckBoxType>Auto</CheckBoxType>
+														<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранКонтекстноеМеню" id="470"/>
+														<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранРасширеннаяПодсказка" id="471"/>
+													</CheckBoxField>
+													<InputField name="ПоказателиСовокупнойТарифнойСтавкиПоказатель" id="357">
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиПоказательКонтекстноеМеню" id="358"/>
+														<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиПоказательРасширеннаяПодсказка" id="359"/>
+													</InputField>
+												</ChildItems>
+											</Table>
+											<UsualGroup name="ПоказателиСовокупнойТарифнойСтавкиКомандыГруппа" id="460">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Показатели совокупной тарифной ставки команды группа</v8:content>
+													</v8:item>
+												</Title>
+												<GroupVerticalAlign>Center</GroupVerticalAlign>
+												<Group>Vertical</Group>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиКомандыГруппаРасширеннаяПодсказка" id="461"/>
+												<ChildItems>
+													<Button name="ПоказателиСовокупнойТарифнойСтавкиВыбрать" id="462">
+														<Type>UsualButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбратьРасширеннаяПодсказка" id="463"/>
+													</Button>
+													<Button name="ПоказателиСовокупнойТарифнойСтавкиОтменить" id="464">
+														<Type>UsualButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиОтменитьРасширеннаяПодсказка" id="465"/>
+													</Button>
+												</ChildItems>
+											</UsualGroup>
+											<Table name="ПоказателиСовокупнойТарифнойСтавкиВыбранные" id="435">
+												<Representation>List</Representation>
+												<TitleLocation>Top</TitleLocation>
+												<CommandBarLocation>None</CommandBarLocation>
+												<AutoMaxWidth>false</AutoMaxWidth>
+												<MaxWidth>25</MaxWidth>
+												<AutoMaxHeight>false</AutoMaxHeight>
+												<HeightInTableRows>4</HeightInTableRows>
+												<Header>false</Header>
+												<HorizontalLines>false</HorizontalLines>
+												<VerticalLines>false</VerticalLines>
+												<AutoInsertNewRow>true</AutoInsertNewRow>
+												<HorizontalStretch>false</HorizontalStretch>
+												<VerticalStretch>false</VerticalStretch>
+												<EnableStartDrag>true</EnableStartDrag>
+												<EnableDrag>true</EnableDrag>
+												<FileDragMode>AsFile</FileDragMode>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Выбранные показатели</v8:content>
+													</v8:item>
+												</Title>
+												<SearchStringLocation>None</SearchStringLocation>
+												<ViewStatusLocation>None</ViewStatusLocation>
+												<SearchControlLocation>None</SearchControlLocation>
+												<RowFilter xsi:nil="true"/>
+												<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеКонтекстноеМеню" id="436"/>
+												<AutoCommandBar name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеКоманднаяПанель" id="437"/>
+												<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеРасширеннаяПодсказка" id="438"/>
+												<SearchStringAddition name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСтрокаПоиска" id="439">
+													<AdditionSource>
+														<Item>ПоказателиСовокупнойТарифнойСтавкиВыбранные</Item>
+														<Type>SearchStringRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСтрокаПоискаКонтекстноеМеню" id="442"/>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСтрокаПоискаРасширеннаяПодсказка" id="443"/>
+												</SearchStringAddition>
+												<ViewStatusAddition name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСостояниеПросмотра" id="444">
+													<AdditionSource>
+														<Item>ПоказателиСовокупнойТарифнойСтавкиВыбранные</Item>
+														<Type>ViewStatusRepresentation</Type>
+													</AdditionSource>
+													<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСостояниеПросмотраКонтекстноеМеню" id="447"/>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеСостояниеПросмотраРасширеннаяПодсказка" id="448"/>
+												</ViewStatusAddition>
+												<SearchControlAddition name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеУправлениеПоиском" id="449">
+													<AdditionSource>
+														<Item>ПоказателиСовокупнойТарифнойСтавкиВыбранные</Item>
+														<Type>SearchControl</Type>
+													</AdditionSource>
+													<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеУправлениеПоискомКонтекстноеМеню" id="452"/>
+													<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеУправлениеПоискомРасширеннаяПодсказка" id="453"/>
+												</SearchControlAddition>
+												<ChildItems>
+													<CheckBoxField name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеВыбран" id="466">
+														<UserVisible>
+															<xr:Common>false</xr:Common>
+														</UserVisible>
+														<EditMode>EnterOnInput</EditMode>
+														<CheckBoxType>Auto</CheckBoxType>
+														<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеВыбранКонтекстноеМеню" id="467"/>
+														<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеВыбранРасширеннаяПодсказка" id="468"/>
+													</CheckBoxField>
+													<InputField name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеПоказатель" id="457">
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеПоказательКонтекстноеМеню" id="458"/>
+														<ExtendedTooltip name="ПоказателиСовокупнойТарифнойСтавкиВыбранныеПоказательРасширеннаяПодсказка" id="459"/>
+													</InputField>
+												</ChildItems>
+											</Table>
+										</ChildItems>
+									</UsualGroup>
+									<LabelDecoration name="ПояснениеПоказателиСовокупнойТарифнойСтавки" id="366">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<MaxWidth>75</MaxWidth>
+										<TextColor>style:ПоясняющийТекст</TextColor>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>При пересчете для оплаты сверхурочных и др. можно использовать тарифную ставку, состоящую из нескольких показателей. Такая совокупная тарифная ставка будет автоматически рассчитываться в кадровых документах с учетом значений отмеченных в этом списке показателей.</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ПояснениеПоказателиСовокупнойТарифнойСтавкиКонтекстноеМеню" id="367"/>
+										<ExtendedTooltip name="ПояснениеПоказателиСовокупнойТарифнойСтавкиРасширеннаяПодсказка" id="368"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаГрафикиРаботы" id="308">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>При изменении нормы времени из-за смены графика работы не с первого числа месяца, считать норму времени</v8:content>
+							</v8:item>
+						</Title>
+						<Width>70</Width>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ExtendedTooltip name="ГруппаГрафикиРаботыРасширеннаяПодсказка" id="309"/>
+						<ChildItems>
+							<RadioButtonField name="ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботыПереключатель" id="316">
+								<TitleLocation>None</TitleLocation>
+								<RadioButtonType>Auto</RadioButtonType>
+								<ColumnsCount>1</ColumnsCount>
+								<ChoiceList>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Исходя из графиков работы до и после изменения</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xs:decimal">0</Value>
+										</xr:Value>
+									</xr:Item>
+									<xr:Item>
+										<xr:Presentation/>
+										<xr:CheckState>0</xr:CheckState>
+										<xr:Value xsi:type="FormChoiceListDesTimeValue">
+											<Presentation>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Исходя из индивидуального графика работы</v8:content>
+												</v8:item>
+											</Presentation>
+											<Value xsi:type="xs:decimal">1</Value>
+										</xr:Value>
+									</xr:Item>
+								</ChoiceList>
+								<ContextMenu name="ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботыПереключательКонтекстноеМеню" id="317"/>
+								<ExtendedTooltip name="ИспользоватьИндивидуальныйГрафикПриСменеГрафикаРаботыПереключательРасширеннаяПодсказка" id="318"/>
+							</RadioButtonField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаКомпенсацияЗаЗадержкуЗарплаты" id="546">
+						<Visible>false</Visible>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Компенсация за задержку зарплаты</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаКомпенсацияЗаЗадержкуЗарплатыРасширеннаяПодсказка" id="547"/>
+						<ChildItems>
+							<CheckBoxField name="РегистрироватьКомпенсациюЗаЗадержкуЗарплатыВДоходахСтраховыхВзносов" id="548">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Регистрировать компенсацию за задержку выплаты зарплаты как облагаемый страховыми взносами доход</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Денежная компенсация, выплачиваемая работнику организацией-работодателем за нарушение установленного срока выплаты заработной платы, включается в базу для начисления страховых взносов.</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="РегистрироватьКомпенсациюЗаЗадержкуЗарплатыВДоходахСтраховыхВзносовКонтекстноеМеню" id="549"/>
+								<ExtendedTooltip name="РегистрироватьКомпенсациюЗаЗадержкуЗарплатыВДоходахСтраховыхВзносовРасширеннаяПодсказка" id="550">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>75</MaxWidth>
+								</ExtendedTooltip>
+							</CheckBoxField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаНастройкиВзаиморасчетов" id="519">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройки взаиморасчетов</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаНастройкиВзаиморасчетовРасширеннаяПодсказка" id="520"/>
+						<ChildItems>
+							<CheckBoxField name="ПроверятьЗаполнениеФинансированияВВедомостях" id="521">
+								<TitleLocation>Right</TitleLocation>
+								<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ПроверятьЗаполнениеФинансированияВВедомостяхКонтекстноеМеню" id="522"/>
+								<ExtendedTooltip name="ПроверятьЗаполнениеФинансированияВВедомостяхРасширеннаяПодсказка" id="523">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>75</MaxWidth>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Включите, если ведомости на выплату зарплаты ведутся по источникам финансирования.
+Заполнение финансирования будет обязательным.
+</v8:content>
+										</v8:item>
+									</Title>
+								</ExtendedTooltip>
+							</CheckBoxField>
+							<CheckBoxField name="ПроверятьСоответствиеНачисленийИВыплат" id="561">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ПроверятьСоответствиеНачисленийИВыплатКонтекстноеМеню" id="562"/>
+								<ExtendedTooltip name="ПроверятьСоответствиеНачисленийИВыплатРасширеннаяПодсказка" id="563"/>
+							</CheckBoxField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаОграничениеИспользованияДокументов" id="509">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ограничение использования документов</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаОграничениеИспользованияДокументовРасширеннаяПодсказка" id="510"/>
+						<ChildItems>
+							<CheckBoxField name="АвтоматическиОграничиватьИспользованиеДокументов" id="511">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Автоматически защищать платежные документы от редактирования после выгрузки из системы</v8:content>
+									</v8:item>
+								</Title>
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="АвтоматическиОграничиватьИспользованиеДокументовКонтекстноеМеню" id="512"/>
+								<ExtendedTooltip name="АвтоматическиОграничиватьИспользованиеДокументовРасширеннаяПодсказка" id="513"/>
+							</CheckBoxField>
+							<LabelDecoration name="ДекорацияПояснениеОграниченияИспользованияДокументов" id="514">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Например, после отправки файла ведомости в банк, документ «Ведомость в банк» будет защищен от редактирования и от повторной отправки в банк.</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="ДекорацияПояснениеОграниченияИспользованияДокументовКонтекстноеМеню" id="515"/>
+								<ExtendedTooltip name="ДекорацияПояснениеОграниченияИспользованияДокументовРасширеннаяПодсказка" id="516"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаНастроекДоначисленийПерерасчетов" id="524">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настроек доначислений перерасчетов</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаНастроекДоначисленийПерерасчетовРасширеннаяПодсказка" id="525"/>
+						<ChildItems>
+							<CheckBoxField name="ВыполнятьДоначислениеПерерасчетЗарплатыОтдельнымДокументом" id="535">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ВыполнятьДоначислениеПерерасчетЗарплатыОтдельнымДокументомКонтекстноеМеню" id="536"/>
+								<ExtendedTooltip name="ВыполнятьДоначислениеПерерасчетЗарплатыОтдельнымДокументомРасширеннаяПодсказка" id="537"/>
+							</CheckBoxField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ГруппаГрантыНеоблагаемыеНДФЛ" id="517">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Гранты необлагаемые НДФЛ</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>NormalSeparation</Representation>
+						<United>false</United>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаГрантыНеоблагаемыеНДФЛРасширеннаяПодсказка" id="518"/>
+					</UsualGroup>
+					<UsualGroup name="ГруппаСтавкиМеждународныхДоговоров" id="564">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ставки международных договоров</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаСтавкиМеждународныхДоговоровРасширеннаяПодсказка" id="565"/>
+						<ChildItems>
+							<CheckBoxField name="ИспользуютсяСтавкиМеждународныхДоговоров" id="566">
+								<TitleLocation>Right</TitleLocation>
+								<CheckBoxType>Auto</CheckBoxType>
+								<ContextMenu name="ИспользуютсяСтавкиМеждународныхДоговоровКонтекстноеМеню" id="567"/>
+								<ExtendedTooltip name="ИспользуютсяСтавкиМеждународныхДоговоровРасширеннаяПодсказка" id="568"/>
+							</CheckBoxField>
+							<LabelDecoration name="ДекорацияПояснениеИспользованияСтавкиМеждународныхДоговоров" id="532">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>75</MaxWidth>
+								<TextColor>style:ПоясняющийТекст</TextColor>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Исчисляется налог с доходов нерезидентов РФ по ставкам предусмотренным международными договорами РФ об избежании двойного налогообложения (п.1  ст. 7 НК РФ).</v8:content>
+									</v8:item>
+								</Title>
+								<VerticalAlign>Top</VerticalAlign>
+								<ContextMenu name="ДекорацияПояснениеИспользованияСтавкиМеждународныхДоговоровКонтекстноеМеню" id="533"/>
+								<ExtendedTooltip name="ДекорацияПояснениеИспользованияСтавкиМеждународныхДоговоровРасширеннаяПодсказка" id="534"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<Button name="РедактированиеПрочихНастроекРасчетаЗарплаты" id="387">
+				<Type>Hyperlink</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="РедактированиеПрочихНастроекРасчетаЗарплатыРасширеннаяПодсказка" id="388"/>
+			</Button>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

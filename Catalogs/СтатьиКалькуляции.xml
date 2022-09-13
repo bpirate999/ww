@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Catalog uuid="8e3da361-4e40-4196-b07a-69180f493855">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.СтатьиКалькуляции" category="Object">
+				<xr:TypeId>e90d407d-9f04-4abb-92b7-23111ce78ca2</xr:TypeId>
+				<xr:ValueId>94065dcb-82a4-45f7-9622-e833eeb2f0f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.СтатьиКалькуляции" category="Ref">
+				<xr:TypeId>e9a3f97c-f82b-476f-bbaa-0680c655e7c7</xr:TypeId>
+				<xr:ValueId>de6011a9-13fe-4742-944b-bf08b536893c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.СтатьиКалькуляции" category="Selection">
+				<xr:TypeId>9ba4c64c-9629-4569-94cd-9f852c52746d</xr:TypeId>
+				<xr:ValueId>0d921938-75f6-4bd8-a495-83aebb7ea0ae</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.СтатьиКалькуляции" category="List">
+				<xr:TypeId>2231fdba-dd19-44bb-b109-a3a602911fef</xr:TypeId>
+				<xr:ValueId>c858c609-ff54-475c-9b67-8184447b611c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.СтатьиКалькуляции" category="Manager">
+				<xr:TypeId>12719c25-8098-4953-8741-a0af3070cfa9</xr:TypeId>
+				<xr:ValueId>b1d858d5-688a-48ea-a12e-1e0668e1a270</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатьиКалькуляции</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>7d570377-df59-48e4-a335-2901c46f4d1c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

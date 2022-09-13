@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<InformationRegister uuid="87b182e7-b88d-45ce-9556-d131ed9320c4">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.РасценкиРаботСотрудников" category="Record">
+				<xr:TypeId>449521d7-9746-418e-a341-66ac50da741d</xr:TypeId>
+				<xr:ValueId>711a0baf-8198-4597-a4fe-c7d80d019ef9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.РасценкиРаботСотрудников" category="Manager">
+				<xr:TypeId>a66e1099-1802-4981-8f7f-81286292dc4c</xr:TypeId>
+				<xr:ValueId>a5282bba-cb45-4d51-b2f6-4901219d450b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.РасценкиРаботСотрудников" category="Selection">
+				<xr:TypeId>b2fbaf5b-f4fc-4ce0-85d7-4e973cacb513</xr:TypeId>
+				<xr:ValueId>50e6fa2e-a0db-4a73-92d5-17475d0e706a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.РасценкиРаботСотрудников" category="List">
+				<xr:TypeId>a7d1aeb3-0fd7-43b0-9459-6c525a0f5939</xr:TypeId>
+				<xr:ValueId>f3c831ba-22ba-4278-8fbc-d85b8deaa1f4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.РасценкиРаботСотрудников" category="RecordSet">
+				<xr:TypeId>e1b72477-aa60-4efe-895d-1a20a61c63bb</xr:TypeId>
+				<xr:ValueId>75f138d2-e7b1-4f11-99f3-373ddaa74ad7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.РасценкиРаботСотрудников" category="RecordKey">
+				<xr:TypeId>322c3bb9-3773-4770-9947-0922188b19ea</xr:TypeId>
+				<xr:ValueId>3ccbe4be-963d-4cc6-8b91-d5f3e7548399</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.РасценкиРаботСотрудников" category="RecordManager">
+				<xr:TypeId>cc226b2d-8167-4e74-a349-4c9eae35e0dd</xr:TypeId>
+				<xr:ValueId>76666def-08d8-4440-8db2-6c05dce2f6a8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РасценкиРаботСотрудников</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d7af2017-4a34-4a4b-a8e8-0adfe0261197</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="8bf9dcfe-2348-4b5b-8a10-89e54f3bb812">
+				<InternalInfo/>
+				<Properties>
+					<Name>Расценка</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6a06aff6-e137-4235-b19d-cf9f000b6962</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="543c09b9-04cb-4172-b031-9e5d678caf7e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидРабот</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>fa5e0119-0bc1-4a2b-9f5e-28104b95a49b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыРаботСотрудников</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

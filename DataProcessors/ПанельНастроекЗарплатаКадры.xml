@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<DataProcessor uuid="18781e78-1ae4-4ac8-8d62-488497c1a5d7">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПанельНастроекЗарплатаКадры" category="Object">
+				<xr:TypeId>64d70295-4e0d-4570-a9f9-8756ff16f38d</xr:TypeId>
+				<xr:ValueId>3d8c475b-e65d-4fe2-af0c-72ff8564d2ad</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПанельНастроекЗарплатаКадры" category="Manager">
+				<xr:TypeId>6d3a82d2-793e-43d3-a528-f28ac980e760</xr:TypeId>
+				<xr:ValueId>388e95b8-baa5-4304-b840-d85d77cbedf8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПанельНастроекЗарплатаКадры</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>faa328df-0396-4c51-9bb7-27317520b1e7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<Form>РасчетЗарплаты</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

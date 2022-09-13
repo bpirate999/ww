@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Enum uuid="b4ae8771-0b30-4368-8b14-29f511d6f268">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыКадровыхСобытий" category="Ref">
+				<xr:TypeId>c8c3ac30-a6a6-40ef-a0c2-dcb747a99be6</xr:TypeId>
+				<xr:ValueId>5b3b5bd7-421f-48b0-8f9f-9832acc8d55e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыКадровыхСобытий" category="Manager">
+				<xr:TypeId>483de84f-210a-4d59-a07b-0a10f0ea8104</xr:TypeId>
+				<xr:ValueId>39b44275-b134-4ec7-a22a-d1ea6b480a97</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыКадровыхСобытий" category="List">
+				<xr:TypeId>a5b42960-2ee4-4974-bb86-3537f3549182</xr:TypeId>
+				<xr:ValueId>2f984c86-5cbb-4486-8f4a-98d083ea7ec5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыКадровыхСобытий</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>b2c547fd-343e-4bc1-9763-795b28132ed4</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="a7f3ca1f-a6cc-4094-b415-b601178c55bf">
+				<InternalInfo/>
+				<Properties>
+					<Name>Увольнение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>20908286-45be-433e-b33d-fc9b1619f433</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

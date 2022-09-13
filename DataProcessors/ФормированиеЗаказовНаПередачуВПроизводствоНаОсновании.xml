@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<DataProcessor uuid="f4af17d3-80d2-4164-aa16-4ca97fc9d673">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ФормированиеЗаказовНаПередачуВПроизводствоНаОсновании" category="Object">
+				<xr:TypeId>0c0eea02-6f9b-41b8-9f63-5f54bfdf2ab5</xr:TypeId>
+				<xr:ValueId>db3b3e17-890a-4111-a347-e27a8a0ef5a3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ФормированиеЗаказовНаПередачуВПроизводствоНаОсновании" category="Manager">
+				<xr:TypeId>43815fa7-51ee-4489-af29-d705309a3bd5</xr:TypeId>
+				<xr:ValueId>28b004b1-50b4-47c8-ac5b-8af3896b76d4</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ФормированиеЗаказовНаПередачуВПроизводствоНаОсновании</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>5c5f9502-151c-49c0-ba70-58c637ad1260</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="873e0df3-4bfe-4fef-ad68-e10942eee34f">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ФормированиеЗаказовНаПередачуВПроизводствоНаОсновании.Материалы" category="TabularSection">
+						<xr:TypeId>57641985-1c02-4fc4-ba0e-ab4d27ec0411</xr:TypeId>
+						<xr:ValueId>16380e0f-4e30-49dd-a69a-2f3b9e8dd571</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ФормированиеЗаказовНаПередачуВПроизводствоНаОсновании.Материалы" category="TabularSectionRow">
+						<xr:TypeId>c52b2a93-a896-44dd-a921-28859b678b27</xr:TypeId>
+						<xr:ValueId>3f7d4bbf-df30-4447-b5fc-ff792b919cf0</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Материалы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a10e2f51-c931-415c-aae1-f3cb23f8c57b</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

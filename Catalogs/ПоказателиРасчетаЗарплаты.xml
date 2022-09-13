@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Catalog uuid="e0cff62c-d1ff-411c-8436-3db0297481c4">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПоказателиРасчетаЗарплаты" category="Object">
+				<xr:TypeId>ea2036f7-5dac-4ce6-ad13-36ef49ca9291</xr:TypeId>
+				<xr:ValueId>af96bdfc-58c6-4776-aeb8-f411cab3fb5c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПоказателиРасчетаЗарплаты" category="Ref">
+				<xr:TypeId>1bd4dfbd-9f1f-4755-8357-254670daa924</xr:TypeId>
+				<xr:ValueId>96232dd9-76bc-4d73-8a4b-cf0a2f03fd2b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПоказателиРасчетаЗарплаты" category="Selection">
+				<xr:TypeId>15fbbec4-9cc4-4622-bb14-c124a287f121</xr:TypeId>
+				<xr:ValueId>7269c087-e8bf-445b-88c7-44a87b6a4c53</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПоказателиРасчетаЗарплаты" category="List">
+				<xr:TypeId>50543010-6c3b-42a6-8102-1b9788a80dcf</xr:TypeId>
+				<xr:ValueId>bb839451-56c2-4ed0-86e9-c43f5f7cfd9e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПоказателиРасчетаЗарплаты" category="Manager">
+				<xr:TypeId>bfd95619-f4be-4de1-bb3b-b6952db95a5a</xr:TypeId>
+				<xr:ValueId>4ed6a1a2-0b03-4ec4-a284-595fa10d20ac</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПоказателиРасчетаЗарплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>8f857a1b-ebf6-49a2-8dd7-6e2a5e8824c9</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

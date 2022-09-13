@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Document uuid="b9e7b2b1-3153-4a1f-8357-c9565329a0c4">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ДанныеДляРасчетаЗарплаты" category="Object">
+				<xr:TypeId>f94e28c1-8d46-4295-9601-2a90e108a709</xr:TypeId>
+				<xr:ValueId>a4a72455-b503-4b77-aac7-72b882d0cde1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ДанныеДляРасчетаЗарплаты" category="Ref">
+				<xr:TypeId>742591d7-1322-43e0-a2ee-b1c3467e23c3</xr:TypeId>
+				<xr:ValueId>331cd6db-9fe2-4ed4-92fc-1484bc1bc4ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ДанныеДляРасчетаЗарплаты" category="Selection">
+				<xr:TypeId>2cff4b20-c0bb-42d7-adfc-daea53330704</xr:TypeId>
+				<xr:ValueId>cc28a82f-b934-44a1-8922-3ef836ce93ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ДанныеДляРасчетаЗарплаты" category="List">
+				<xr:TypeId>3305051b-fc73-4c0d-bde6-dd6be8250182</xr:TypeId>
+				<xr:ValueId>4586fba3-991e-44c1-834c-e8e558e34e54</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ДанныеДляРасчетаЗарплаты" category="Manager">
+				<xr:TypeId>4f7b0208-5bcb-4fe1-93aa-e9af9de92472</xr:TypeId>
+				<xr:ValueId>41281f9d-303a-4694-aacc-b5ffb3879ea5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДанныеДляРасчетаЗарплаты</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>bc097240-4e62-474e-8cc4-0b84a675c2d1</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="258538cf-6372-4388-b0b6-7fbcd8d5fa5a">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9ddebc16-ff49-4c74-8500-fd21634cd730</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="fce73011-aff6-49f0-80be-4e62a19abf55">
+				<InternalInfo/>
+				<Properties>
+					<Name>Период</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>49d10392-14fb-40f1-8835-224b5842b54a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="59ea1c96-70f4-41d8-86d4-4f9e57d58f0b">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидДокумента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2f138123-0e65-452c-95f9-5343db539908</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыДокументовВводДанныхДляРасчетаЗарплаты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="138c477c-c3a4-4872-99a6-f379af3eb386">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ДанныеДляРасчетаЗарплаты.ЗначенияПоказателей" category="TabularSection">
+						<xr:TypeId>e92a3f87-ff8e-4f54-86ab-bce231497f33</xr:TypeId>
+						<xr:ValueId>5891748d-fb64-44ff-aed2-db64ad20ca5b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ДанныеДляРасчетаЗарплаты.ЗначенияПоказателей" category="TabularSectionRow">
+						<xr:TypeId>a567f821-ed2c-4c4a-a39f-de1b9cf60b53</xr:TypeId>
+						<xr:ValueId>a04fff04-5a15-4788-a269-48c79545b8cc</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ЗначенияПоказателей</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a4be24c2-ca48-49f0-8250-cfdfa93843f9</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="5d89862d-887e-4ef1-accf-c09cd183161b">
+						<InternalInfo/>
+						<Properties>
+							<Name>Объект</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>42d56706-e5f6-4b77-b43e-2e40ab3e1e35</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3cb58c8b-25d2-4f7d-bd02-d7fba4197ef0">
+						<InternalInfo/>
+						<Properties>
+							<Name>Показатель</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>8ee30a7b-126b-47f2-bd5f-62041e13cbee</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПоказателиРасчетаЗарплаты</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0b0fd28b-6a39-485c-97bd-05fdc4084f33">
+						<InternalInfo/>
+						<Properties>
+							<Name>Значение</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>6d2ebfff-003b-4e75-ba7e-3e97c7ccfe5a</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ЗначениеПоказателяРасчетаЗарплаты</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cd43ce1c-ebfa-4da4-a66e-301f17f1c514">
+						<InternalInfo/>
+						<Properties>
+							<Name>Период</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>95d67b9b-15e4-4253-b057-e50211a7a540</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="418924b8-8c31-4a0f-822c-4b610fe59164">
+						<InternalInfo/>
+						<Properties>
+							<Name>ПериодОкончания</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>941d6f8a-f6c1-45e2-9e05-adc12c20da1f</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="61db5e34-8efa-4989-ab99-d2493ba81069">
+						<InternalInfo/>
+						<Properties>
+							<Name>Коэффициент</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>d1f84bd3-50ae-4166-8d6d-fe653353496a</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="436cb806-d72f-4e18-bb92-75ffec6229e5">
+						<InternalInfo/>
+						<Properties>
+							<Name>ТарифнаяСтавка</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>f3375ae5-6771-4585-b4c7-dcad03b26ca5</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="08496d32-8542-41d1-a2d2-91ecf9aa5f09">
+						<InternalInfo/>
+						<Properties>
+							<Name>ВремяВЧасах</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>f30b9e69-90da-4592-9198-d1aec2db79fe</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="cd11c675-9744-4466-9562-6d5d38a374d5">
+						<InternalInfo/>
+						<Properties>
+							<Name>ОтработаноДней</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>2052dabf-53b7-4013-a546-e9674345cb6c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>2</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d853db5a-d9b2-48a2-aedb-b67c7554a6e9">
+						<InternalInfo/>
+						<Properties>
+							<Name>ОтработаноЧасов</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>9d136b76-e912-4146-9401-681f34e24eb2</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>5</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5deb115e-d9a5-4ffa-9f84-4f477de2312f">
+						<InternalInfo/>
+						<Properties>
+							<Name>ФиксТарифнаяСтавка</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>9f865f69-3a73-45b2-847e-5a77dc8084e5</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="13532739-3c2f-4103-ab60-8393caf45ac2">
+						<InternalInfo/>
+						<Properties>
+							<Name>ФиксОтработанноеВремя</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>cb725463-518f-4662-bcf7-f9ff165890e3</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f6173a3e-06c4-4f3f-bb53-06d3617a717b">
+						<InternalInfo/>
+						<Properties>
+							<Name>ФиксЗначение</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>9eb96922-5f9c-4ad5-b737-726d726b781c</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="9587534e-60cc-4f57-8aa5-5c0f189c100f">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ДанныеДляРасчетаЗарплаты.ВыполненныеРаботы" category="TabularSection">
+						<xr:TypeId>befa7968-1591-452f-889a-4495aee65b73</xr:TypeId>
+						<xr:ValueId>3497d30d-8d6c-4357-9d82-2f1b269daae8</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ДанныеДляРасчетаЗарплаты.ВыполненныеРаботы" category="TabularSectionRow">
+						<xr:TypeId>43804a08-3c58-40d9-88be-db39fdd664d2</xr:TypeId>
+						<xr:ValueId>2ac04315-ffb1-48dd-9902-3ff707139974</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ВыполненныеРаботы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>2f12923c-4a10-41e8-8844-97949cacb0ee</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

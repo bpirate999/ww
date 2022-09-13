@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Enum uuid="c8a1263f-5a53-4ae7-bb78-186e23c64d3d">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыЗаказовМатериаловВПроизводство" category="Ref">
+				<xr:TypeId>cd0866ce-c58c-4b06-ac9d-87d0fc9c23b2</xr:TypeId>
+				<xr:ValueId>8fbfde5e-2f75-45dd-9eb4-d6d9d623b079</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыЗаказовМатериаловВПроизводство" category="Manager">
+				<xr:TypeId>9d98cec0-ac12-4da4-be19-dda64e3b547e</xr:TypeId>
+				<xr:ValueId>285cfa28-83f4-413e-9260-2a06b99582df</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыЗаказовМатериаловВПроизводство" category="List">
+				<xr:TypeId>efe1ce1f-7e5f-4696-9f14-6d035834d774</xr:TypeId>
+				<xr:ValueId>dc0728e3-a007-4652-a41b-ed3611a81d60</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыЗаказовМатериаловВПроизводство</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>fb208de0-235a-40d0-9aea-26fb25fa698b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0de531fd-7154-476c-9c5c-a00b03e4c90a">
+				<InternalInfo/>
+				<Properties>
+					<Name>КВыполнению</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7c4b57f2-75ba-4e86-bb3c-ed04f7d6d372</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

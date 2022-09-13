@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Catalog uuid="6a440016-7260-4624-95db-ba24996600e0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.РесурсныеСпецификации" category="Object">
+				<xr:TypeId>ac34eeb3-2a43-434c-8336-3aa20cb5e929</xr:TypeId>
+				<xr:ValueId>99af229a-2e76-4c9d-abed-b1a8f106bffa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.РесурсныеСпецификации" category="Ref">
+				<xr:TypeId>eb0fdd9e-550a-4cec-a32e-8c14dbef44c2</xr:TypeId>
+				<xr:ValueId>eee1f303-e1de-420e-baf3-064e3a2a8d74</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.РесурсныеСпецификации" category="Selection">
+				<xr:TypeId>952879f9-cdc4-41a9-bee5-0cf99f2ca0b6</xr:TypeId>
+				<xr:ValueId>56c28e28-626f-4f8a-be43-80f9ca34a2d6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.РесурсныеСпецификации" category="List">
+				<xr:TypeId>3b99030d-4152-4e69-8780-7790b2161b96</xr:TypeId>
+				<xr:ValueId>670524cc-ed68-42b4-b9a2-a8bd2d68783c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.РесурсныеСпецификации" category="Manager">
+				<xr:TypeId>7a14f3c7-eaab-45c3-810b-e29cd7bf7507</xr:TypeId>
+				<xr:ValueId>6a1e7335-94dd-4a64-92a2-f018d5bb0e7b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РесурсныеСпецификации</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>ee5a63d2-90be-4f36-8a88-5415230abebc</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="e2759085-ff53-4434-80a7-4336c50555dc">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.РесурсныеСпецификации.Трудозатраты" category="TabularSection">
+						<xr:TypeId>0053f004-e203-4db0-96a2-f5ea9cabbf22</xr:TypeId>
+						<xr:ValueId>eab2aaf7-267a-42c4-a2cc-a79bcc8e1c78</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.РесурсныеСпецификации.Трудозатраты" category="TabularSectionRow">
+						<xr:TypeId>045c17e0-a898-4f52-873f-84702adb82e6</xr:TypeId>
+						<xr:ValueId>143a1a15-6a14-485a-aad0-99dbf6f7b90d</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Трудозатраты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>76aa45fe-dde7-48b0-940f-7eaf21bba0cc</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="6b7518b0-7994-4c1c-93cb-d8880f1a3613">
+						<InternalInfo/>
+						<Properties>
+							<Name>ВидРабот</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>35d5d16d-cae4-425e-9d83-0c804ca3a4b6</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ВидыРаботСотрудников</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="75234a0d-2b4f-4ac3-af08-830caf48ad3b">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.РесурсныеСпецификации.МатериалыИУслуги" category="TabularSection">
+						<xr:TypeId>fe5cb46d-cccb-4791-9892-3785fe708471</xr:TypeId>
+						<xr:ValueId>e71da43b-76d7-4709-837f-54335f5ef8ff</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.РесурсныеСпецификации.МатериалыИУслуги" category="TabularSectionRow">
+						<xr:TypeId>accb7aa0-f7b8-4ab8-adae-f1e6a04ceaaa</xr:TypeId>
+						<xr:ValueId>799a654f-79db-4c83-8290-6d4bb3e768a3</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>МатериалыИУслуги</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>f3f60468-b96f-4528-8adc-5b0b567a3e3d</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="584b61e6-294e-4c9f-a2f1-6e07c8f7fbcb">
+						<InternalInfo/>
+						<Properties>
+							<Name>Номенклатура</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>e3112143-6304-49ed-abcf-b14fe2425c34</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаВыбораПоНоменклатуре</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

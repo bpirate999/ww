@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Catalog uuid="1015d7fc-8590-45c9-b8b9-0b3cc973d2ce">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Бригады" category="Object">
+				<xr:TypeId>3393112d-0dd4-4a5e-91b6-18490cfcfe3b</xr:TypeId>
+				<xr:ValueId>1c1d658a-0013-4280-a576-3f176d0e65ec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Бригады" category="Ref">
+				<xr:TypeId>7d19ba29-4a60-44a7-ba0b-88e5fc42a9d7</xr:TypeId>
+				<xr:ValueId>583a6ae6-e8e3-4f8c-9202-aa0278eb022e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Бригады" category="Selection">
+				<xr:TypeId>46f7088b-48a6-46bb-909b-f816db29f26c</xr:TypeId>
+				<xr:ValueId>c1d065e0-a176-43e5-8ac9-bd5a112cdc5e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Бригады" category="List">
+				<xr:TypeId>d71aa68d-e59a-4f04-ad50-ded28e9eb346</xr:TypeId>
+				<xr:ValueId>8f1a9bcf-9529-42d2-9026-761945866445</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Бригады" category="Manager">
+				<xr:TypeId>ae3dfe3d-e35c-4dc0-bddd-da9cea05607a</xr:TypeId>
+				<xr:ValueId>ffdee2c3-2fe8-4afc-844f-2108860ed222</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Бригады</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>93494e12-e7fa-46b1-97ca-a06c0c2b14e3</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

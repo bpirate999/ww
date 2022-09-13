@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<InformationRegister uuid="9884b8ee-3c80-479e-9cd9-cabae3192bf9">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.НастройкиКлючевыхПоказателейЭффективности" category="Record">
+				<xr:TypeId>8972f231-9eca-45e2-b574-e567e6bf73c0</xr:TypeId>
+				<xr:ValueId>95f55054-5753-46ff-a9fe-d06e10ebd14f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.НастройкиКлючевыхПоказателейЭффективности" category="Manager">
+				<xr:TypeId>e3ada6e6-4c2a-4e1d-a83a-80aec81b942b</xr:TypeId>
+				<xr:ValueId>cdc37818-8af2-45ea-be8a-c3c614478be7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.НастройкиКлючевыхПоказателейЭффективности" category="Selection">
+				<xr:TypeId>98f97dd8-8dca-4eba-adcb-1f604acaf437</xr:TypeId>
+				<xr:ValueId>1682988b-6e63-4f94-a389-3e6268d140db</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.НастройкиКлючевыхПоказателейЭффективности" category="List">
+				<xr:TypeId>d4a78127-ce35-4c75-b89c-76cd0a80b829</xr:TypeId>
+				<xr:ValueId>655f10dc-6680-4209-bf26-16cf9e6112f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.НастройкиКлючевыхПоказателейЭффективности" category="RecordSet">
+				<xr:TypeId>0e6428ee-ff38-431b-9e49-2b9150a90c5b</xr:TypeId>
+				<xr:ValueId>fc8d2aad-75fd-4839-a9cc-2df988bd2226</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.НастройкиКлючевыхПоказателейЭффективности" category="RecordKey">
+				<xr:TypeId>ddc43e1d-cfb5-4b45-85b1-fe7b5119d22c</xr:TypeId>
+				<xr:ValueId>3cfe4d3f-95d2-4ec4-900d-fb283ac74d7e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.НастройкиКлючевыхПоказателейЭффективности" category="RecordManager">
+				<xr:TypeId>69cd59d9-19dc-4db5-9a67-c844707d02cf</xr:TypeId>
+				<xr:ValueId>cfae38f4-67ee-41c5-9365-6d2491189cae</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НастройкиКлючевыхПоказателейЭффективности</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>6324618a-26ed-4d99-9863-0061bae7a90a</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="3ede453f-46de-4c4a-a731-34875a8f5c17">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИспользоватьДолгосрочныеГоризонтыОценки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>98173868-5237-47b5-9f40-e4fcad47e5b2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="c63031b3-1b5c-4ffa-98ff-f20be56ca1ef">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИспользоватьГоризонтКвартал</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>10d2a0e7-b036-49eb-ba6f-ec36f0298a0a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="f291caad-a912-43b2-9b4f-05814820b87b">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИспользоватьГоризонтПолугодие</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6ec241f0-f124-4811-8b5c-ce92992749b1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="3ea7dccf-ca68-4ec4-aa48-b82979493680">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИспользоватьГоризонтГод</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>db6888f1-9e07-48cd-a6d7-899207aa182f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>
