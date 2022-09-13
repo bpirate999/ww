@@ -31,6 +31,21 @@
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
+			<Attribute uuid="1bbc3f0b-0003-4645-b36a-b1af254eb7de">
+				<InternalInfo/>
+				<Properties>
+					<Name>Период</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>49d10392-14fb-40f1-8835-224b5842b54a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="138c477c-c3a4-4872-99a6-f379af3eb386">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ДанныеДляРасчетаЗарплаты.ЗначенияПоказателей" category="TabularSection">

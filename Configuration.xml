@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>1.1.1.34</Version>
+			<Version>1.1.1.35</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -110,6 +110,7 @@
 			<Catalog>КлючиАналитикиУчетаНоменклатуры</Catalog>
 			<Catalog>СерииНоменклатуры</Catalog>
 			<Catalog>СтатьиКалькуляции</Catalog>
+			<Catalog>НаборыУпаковок</Catalog>
 			<Document>ВыработкаСотрудников</Document>
 			<Document>ЗаказМатериаловВПроизводство</Document>
 			<Document>ПроизводствоБезЗаказа</Document>

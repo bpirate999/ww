@@ -292,18 +292,32 @@
 											<ChildItems>
 												<InputField name="ЗаливкаУпаковка" id="272">
 													<DataPath>Обработка.Заливка.Упаковка</DataPath>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Размер тележки</v8:content>
+														</v8:item>
+													</Title>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
-													<ShowInHeader>false</ShowInHeader>
+													<ShowInFooter>false</ShowInFooter>
 													<Width>10</Width>
 													<DropListButton>false</DropListButton>
 													<ChoiceButton>true</ChoiceButton>
 													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+													<OpenButton>false</OpenButton>
+													<ChooseType>false</ChooseType>
+													<TextEdit>false</TextEdit>
 													<ContextMenu name="ЗаливкаУпаковкаКонтекстноеМеню" id="273"/>
 													<ExtendedTooltip name="ЗаливкаУпаковкаРасширеннаяПодсказка" id="274"/>
+													<Events>
+														<Event name="StartChoice">ЗаливкаУпаковкаНачалоВыбора</Event>
+													</Events>
 												</InputField>
 												<LabelField name="ЗаливкаНоменклатураЕдиницаИзмерения" id="537">
 													<DataPath>Обработка.Заливка.Номенклатура.ЕдиницаИзмерения</DataPath>
+													<Visible>false</Visible>
+													<Enabled>false</Enabled>
 													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
@@ -657,6 +671,7 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<OpenButton>false</OpenButton>
 											<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 											<ContextMenu name="ВыкладкаХарактеристикаКонтекстноеМеню" id="648"/>
 											<ExtendedTooltip name="ВыкладкаХарактеристикаРасширеннаяПодсказка" id="649"/>
