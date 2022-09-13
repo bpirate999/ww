@@ -21,43 +21,6 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<ExtendedConfigurationObject>351b0c5b-74c3-4aaa-a93b-7246b941f797</ExtendedConfigurationObject>
 		</Properties>
-		<ChildObjects>
-			<EnumValue uuid="76b5fe19-afa5-4899-8428-37d14eed529a">
-				<InternalInfo/>
-				<Properties>
-					<Name>РеализацияКлиенту</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>4dec627e-3939-4191-a213-0cea734fc86c</ExtendedConfigurationObject>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="5b192faa-469a-4a5a-b559-f27362d7b47b">
-				<InternalInfo/>
-				<Properties>
-					<Name>ПередачаНаКомиссию</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>a606d3e5-4a59-4b2c-9d3d-5976f5c778cf</ExtendedConfigurationObject>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="1e94e084-9b81-4fad-b746-e32d2bbee662">
-				<InternalInfo/>
-				<Properties>
-					<Name>РеализацияКлиентуРеглУчет</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>3299776f-a304-476e-a0d9-a9132b128869</ExtendedConfigurationObject>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="0523caa4-bd69-4e8a-98dc-1a55ba2458d0">
-				<InternalInfo/>
-				<Properties>
-					<Name>РеализацияБезПереходаПраваСобственности</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>0789d7c2-8020-4d52-a305-445f9faa9b76</ExtendedConfigurationObject>
-				</Properties>
-			</EnumValue>
-		</ChildObjects>
+		<ChildObjects/>
 	</Enum>
 </MetaDataObject>

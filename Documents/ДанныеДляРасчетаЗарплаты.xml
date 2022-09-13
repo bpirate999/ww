@@ -31,45 +31,6 @@
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="258538cf-6372-4388-b0b6-7fbcd8d5fa5a">
-				<InternalInfo/>
-				<Properties>
-					<Name>Организация</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>9ddebc16-ff49-4c74-8500-fd21634cd730</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="fce73011-aff6-49f0-80be-4e62a19abf55">
-				<InternalInfo/>
-				<Properties>
-					<Name>Период</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>49d10392-14fb-40f1-8835-224b5842b54a</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:DateQualifiers>
-							<v8:DateFractions>Date</v8:DateFractions>
-						</v8:DateQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="59ea1c96-70f4-41d8-86d4-4f9e57d58f0b">
-				<InternalInfo/>
-				<Properties>
-					<Name>ВидДокумента</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<ExtendedConfigurationObject>2f138123-0e65-452c-95f9-5343db539908</ExtendedConfigurationObject>
-					<Type>
-						<v8:Type>cfg:CatalogRef.ВидыДокументовВводДанныхДляРасчетаЗарплаты</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
 			<TabularSection uuid="138c477c-c3a4-4872-99a6-f379af3eb386">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ДанныеДляРасчетаЗарплаты.ЗначенияПоказателей" category="TabularSection">
