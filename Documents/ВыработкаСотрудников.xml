@@ -43,6 +43,42 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="22256948-4421-4569-a3b5-7960953e156d">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИспользоватьКТУ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>0ed49224-dcec-44a3-9dc7-8d8eaa1f3f0a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="60e0de66-97b2-4529-b30f-5741fbfaa230">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИспользоватьТарифныеСтавки</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>dc4a04ec-60d8-4622-943c-f405417a47c1</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cdd4a0ee-456f-428e-9d4f-bb5b7b270876">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИспользоватьОтработанноеВремя</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>740aff98-0851-47f8-b5be-ddf31cd9b5f2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="aa6a66b8-63a3-4354-af6e-e913f8d8dde9">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ВыработкаСотрудников.Работники" category="TabularSection">

@@ -181,11 +181,11 @@
 									</ChildItems>
 								</UsualGroup>
 								<Table name="Заливка" id="232">
+									<Representation>List</Representation>
+									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>6</Height>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<VerticalStretch>false</VerticalStretch>
-									<EnableStartDrag>true</EnableStartDrag>
-									<EnableDrag>true</EnableDrag>
 									<DataPath>Обработка.Заливка</DataPath>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="ЗаливкаКонтекстноеМеню" id="233">
@@ -258,8 +258,14 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<ShowInFooter>false</ShowInFooter>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<HorizontalStretch>false</HorizontalStretch>
 											<OpenButton>false</OpenButton>
 											<ListChoiceMode>true</ListChoiceMode>
+											<ChooseType>false</ChooseType>
+											<TextEdit>false</TextEdit>
 											<ChoiceHistoryOnInput>DontUse</ChoiceHistoryOnInput>
 											<ContextMenu name="ЗаливкаХарактеристикаКонтекстноеМеню" id="258"/>
 											<ExtendedTooltip name="ЗаливкаХарактеристикаРасширеннаяПодсказка" id="259"/>
@@ -280,58 +286,30 @@
 											<ContextMenu name="ЗаливкаКоличествоУпаковокКонтекстноеМеню" id="267"/>
 											<ExtendedTooltip name="ЗаливкаКоличествоУпаковокРасширеннаяПодсказка" id="268"/>
 										</InputField>
-										<ColumnGroup name="ЗаливкаУпаковкаЕдиницаИзмерения" id="540">
+										<InputField name="ЗаливкаУпаковка" id="272">
+											<DataPath>Обработка.Заливка.Упаковка</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Упаковка, единица измерения</v8:content>
+													<v8:content>Тележка</v8:content>
 												</v8:item>
 											</Title>
-											<Group>InCell</Group>
-											<ExtendedTooltip name="ЗаливкаУпаковкаЕдиницаИзмеренияРасширеннаяПодсказка" id="541"/>
-											<ChildItems>
-												<InputField name="ЗаливкаУпаковка" id="272">
-													<DataPath>Обработка.Заливка.Упаковка</DataPath>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Размер тележки</v8:content>
-														</v8:item>
-													</Title>
-													<TitleLocation>Left</TitleLocation>
-													<EditMode>EnterOnInput</EditMode>
-													<ShowInFooter>false</ShowInFooter>
-													<Width>10</Width>
-													<DropListButton>false</DropListButton>
-													<ChoiceButton>true</ChoiceButton>
-													<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
-													<OpenButton>false</OpenButton>
-													<ChooseType>false</ChooseType>
-													<TextEdit>false</TextEdit>
-													<ContextMenu name="ЗаливкаУпаковкаКонтекстноеМеню" id="273"/>
-													<ExtendedTooltip name="ЗаливкаУпаковкаРасширеннаяПодсказка" id="274"/>
-													<Events>
-														<Event name="StartChoice">ЗаливкаУпаковкаНачалоВыбора</Event>
-													</Events>
-												</InputField>
-												<LabelField name="ЗаливкаНоменклатураЕдиницаИзмерения" id="537">
-													<DataPath>Обработка.Заливка.Номенклатура.ЕдиницаИзмерения</DataPath>
-													<Visible>false</Visible>
-													<Enabled>false</Enabled>
-													<ReadOnly>true</ReadOnly>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Ед. изм.</v8:content>
-														</v8:item>
-													</Title>
-													<EditMode>EnterOnInput</EditMode>
-													<Width>8</Width>
-													<ContextMenu name="ЗаливкаНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="538"/>
-													<ExtendedTooltip name="ЗаливкаНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="539"/>
-												</LabelField>
-											</ChildItems>
-										</ColumnGroup>
+											<TitleLocation>Left</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInFooter>false</ShowInFooter>
+											<DropListButton>false</DropListButton>
+											<ChoiceButton>true</ChoiceButton>
+											<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
+											<OpenButton>false</OpenButton>
+											<QuickChoice>true</QuickChoice>
+											<ChooseType>false</ChooseType>
+											<TextEdit>false</TextEdit>
+											<ContextMenu name="ЗаливкаУпаковкаКонтекстноеМеню" id="273"/>
+											<ExtendedTooltip name="ЗаливкаУпаковкаРасширеннаяПодсказка" id="274"/>
+											<Events>
+												<Event name="StartChoice">ЗаливкаУпаковкаНачалоВыбора</Event>
+											</Events>
+										</InputField>
 									</ChildItems>
 								</Table>
 							</ChildItems>
@@ -399,12 +377,12 @@
 									</ChildItems>
 								</UsualGroup>
 								<Table name="Нарезка" id="542">
+									<Representation>List</Representation>
+									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>6</Height>
 									<AutoMaxHeight>false</AutoMaxHeight>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
 									<VerticalStretch>false</VerticalStretch>
-									<EnableStartDrag>true</EnableStartDrag>
-									<EnableDrag>true</EnableDrag>
 									<DataPath>Обработка.Нарезка</DataPath>
 									<RowFilter xsi:nil="true"/>
 									<ContextMenu name="НарезкаКонтекстноеМеню" id="543">
@@ -482,6 +460,10 @@
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
+											<ShowInFooter>false</ShowInFooter>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<HorizontalStretch>false</HorizontalStretch>
 											<DropListButton>true</DropListButton>
 											<ChoiceButton>false</ChoiceButton>
 											<OpenButton>false</OpenButton>
@@ -498,37 +480,31 @@
 											<ContextMenu name="НарезкаКоличествоУпаковокКонтекстноеМеню" id="603"/>
 											<ExtendedTooltip name="НарезкаКоличествоУпаковокРасширеннаяПодсказка" id="604"/>
 										</InputField>
-										<ColumnGroup name="НарезкаУпаковкаЕдиницаИзмерения" id="579">
+										<InputField name="НарезкаУпаковка" id="605">
+											<DataPath>Обработка.Нарезка.Упаковка</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Упаковка, единица измерения</v8:content>
+													<v8:content>Тележка</v8:content>
 												</v8:item>
 											</Title>
-											<Group>InCell</Group>
-											<ExtendedTooltip name="НарезкаУпаковкаЕдиницаИзмеренияРасширеннаяПодсказка" id="580"/>
-											<ChildItems>
-												<InputField name="НарезкаУпаковка" id="605">
-													<DataPath>Обработка.Нарезка.Упаковка</DataPath>
-													<EditMode>EnterOnInput</EditMode>
-													<ShowInHeader>false</ShowInHeader>
-													<ContextMenu name="НарезкаУпаковкаКонтекстноеМеню" id="606"/>
-													<ExtendedTooltip name="НарезкаУпаковкаРасширеннаяПодсказка" id="607"/>
-												</InputField>
-												<LabelField name="НарезкаНоменклатураЕдиницаИзмерения" id="608">
-													<DataPath>Обработка.Нарезка.Номенклатура.ЕдиницаИзмерения</DataPath>
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Ед. изм.</v8:content>
-														</v8:item>
-													</Title>
-													<EditMode>EnterOnInput</EditMode>
-													<ContextMenu name="НарезкаНоменклатураЕдиницаИзмеренияКонтекстноеМеню" id="609"/>
-													<ExtendedTooltip name="НарезкаНоменклатураЕдиницаИзмеренияРасширеннаяПодсказка" id="610"/>
-												</LabelField>
-											</ChildItems>
-										</ColumnGroup>
+											<EditMode>EnterOnInput</EditMode>
+											<ShowInFooter>false</ShowInFooter>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<DropListButton>false</DropListButton>
+											<ChoiceButton>true</ChoiceButton>
+											<ChoiceButtonRepresentation>ShowInDropList</ChoiceButtonRepresentation>
+											<OpenButton>false</OpenButton>
+											<QuickChoice>true</QuickChoice>
+											<ChooseType>false</ChooseType>
+											<TextEdit>false</TextEdit>
+											<ContextMenu name="НарезкаУпаковкаКонтекстноеМеню" id="606"/>
+											<ExtendedTooltip name="НарезкаУпаковкаРасширеннаяПодсказка" id="607"/>
+											<Events>
+												<Event name="StartChoice">НарезкаУпаковкаНачалоВыбора</Event>
+											</Events>
+										</InputField>
 									</ChildItems>
 								</Table>
 							</ChildItems>
