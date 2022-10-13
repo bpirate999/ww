@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<AccumulationRegister uuid="b068fffe-5bae-4995-a392-d61dd876bcfb">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.bos_ОстаткиТоваровПоСоглашениям" category="Record">
+				<xr:TypeId>18c69b9e-a080-4de5-ae18-e8495bca9bd3</xr:TypeId>
+				<xr:ValueId>02fb205e-8126-45cd-8cb8-75f20e392734</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.bos_ОстаткиТоваровПоСоглашениям" category="Manager">
+				<xr:TypeId>0824db45-88be-4acd-a489-d2964b42eef5</xr:TypeId>
+				<xr:ValueId>32aecb4d-d72c-4259-b871-17636714ad8a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.bos_ОстаткиТоваровПоСоглашениям" category="Selection">
+				<xr:TypeId>d6f30bef-3dde-4e8b-afc8-5babbb8539eb</xr:TypeId>
+				<xr:ValueId>8b1ab6c1-56ee-49e9-a541-1a0ab2ece5ba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.bos_ОстаткиТоваровПоСоглашениям" category="List">
+				<xr:TypeId>2e379b1a-4efd-45e4-9574-7953631aee54</xr:TypeId>
+				<xr:ValueId>cd8131ae-149a-466b-a660-4268638c8253</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.bos_ОстаткиТоваровПоСоглашениям" category="RecordSet">
+				<xr:TypeId>f5807062-8a5a-4cfb-a82c-3df78156c933</xr:TypeId>
+				<xr:ValueId>ea975240-44f5-45f7-9bd7-f9f781e3eba7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.bos_ОстаткиТоваровПоСоглашениям" category="RecordKey">
+				<xr:TypeId>119b99d1-d21e-43d1-a569-07039f4ad3c4</xr:TypeId>
+				<xr:ValueId>5bd8ab0e-67f0-4040-b37c-41a36f4344f5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>bos_ОстаткиТоваровПоСоглашениям</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>dc706eef-1620-410d-a259-27c1dff258a1</ExtendedConfigurationObject>
+			<RegisterType>Balance</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="76a70565-4c6a-4044-b171-d22734a8688b">
+				<InternalInfo/>
+				<Properties>
+					<Name>Количество</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3050ed1e-e50a-44e1-8bce-3261033ea7e2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="92c0ac35-be6d-4ace-8957-1e5fdc1ec5d3">
+				<InternalInfo/>
+				<Properties>
+					<Name>Характеристика</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e2219763-0146-4924-82dd-e4ee48284023</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ХарактеристикиНоменклатуры</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="e360378b-70b6-49b0-ac46-38dd3d9a2407">
+				<InternalInfo/>
+				<Properties>
+					<Name>Номенклатура</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>aa5d536b-7576-44d1-a909-7cf6c0e4a257</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+			<Dimension uuid="74aa1023-7ac3-483f-8ace-c69df632b00f">
+				<InternalInfo/>
+				<Properties>
+					<Name>СоглашенияСКлиентами</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>018e477e-ec06-427b-a96b-9097dff3d5a2</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.СоглашенияСКлиентами</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

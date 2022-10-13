@@ -51,7 +51,7 @@
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
 			<Vendor/>
-			<Version>1.1.1.36</Version>
+			<Version>1.1.1.38</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -65,6 +65,7 @@
 			<StyleItem>ФонУправляющегоПоля</StyleItem>
 			<StyleItem>ГруппаВариантовОтчетовЦвет</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>ЦветФонаВыделения</StyleItem>
 			<CommonPicture>ОформитьПродажу</CommonPicture>
 			<CommonPicture>СледующийШаг</CommonPicture>
 			<CommonPicture>КоллекцияСоставСпецификации</CommonPicture>
@@ -77,6 +78,7 @@
 			<CommonPicture>ЗаполнитьФорму</CommonPicture>
 			<CommonPicture>СостоянияДокумента</CommonPicture>
 			<CommonPicture>РазделПроизводство16</CommonPicture>
+			<CommonPicture>СостояниеСкидкиНаценки</CommonPicture>
 			<CommonModule>ИнтерфейсРаботникаСклада</CommonModule>
 			<CommonModule>УправлениеПечатьюПереопределяемый</CommonModule>
 			<CommonModule>ВариантыОтчетовПереопределяемый</CommonModule>
@@ -86,6 +88,8 @@
 			<CommonModule>ЗарплатаКадрыВнутренний</CommonModule>
 			<CommonModule>ЗарплатаКадрыРасширенный</CommonModule>
 			<CommonModule>Анкетирование</CommonModule>
+			<CommonModule>СозданиеНаОснованииПереопределяемый</CommonModule>
+			<CommonModule>ВзаимодействияКлиент</CommonModule>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<Constant>ИспользоватьКлючевыеПоказателиЭффективности</Constant>
 			<Catalog>Номенклатура</Catalog>
@@ -111,11 +115,16 @@
 			<Catalog>СерииНоменклатуры</Catalog>
 			<Catalog>СтатьиКалькуляции</Catalog>
 			<Catalog>НаборыУпаковок</Catalog>
+			<Catalog>СоглашенияСКлиентами</Catalog>
 			<Document>ВыработкаСотрудников</Document>
 			<Document>ЗаказМатериаловВПроизводство</Document>
 			<Document>ПроизводствоБезЗаказа</Document>
 			<Document>ДвижениеПродукцииИМатериалов</Document>
 			<Document>ДанныеДляРасчетаЗарплаты</Document>
+			<Document>bos_КонтрольУсловийСоглашения</Document>
+			<Document>РеализацияТоваровУслуг</Document>
+			<Document>ПриходныйКассовыйОрдер</Document>
+			<Document>СообщениеSMS</Document>
 			<Enum>ВариантыОбеспечения</Enum>
 			<Enum>ТипыНалогообложенияНДС</Enum>
 			<Enum>СтатусыЗаказовМатериаловВПроизводство</Enum>
@@ -126,6 +135,8 @@
 			<Enum>ВариантыПриемкиТоваров</Enum>
 			<Enum>ПорядокРасчетаСтоимостиЕдиницыВремениОплатыТруда</Enum>
 			<Enum>ГруппировкиЗатратВПроизводствеБезЗаказа</Enum>
+			<Enum>СпособыФормированияСегментов</Enum>
+			<Enum>ПорядокРасчетов</Enum>
 			<DataProcessor>РабочееМесто</DataProcessor>
 			<DataProcessor>ФормированиеЗаказовНаПередачуВПроизводствоНаОсновании</DataProcessor>
 			<DataProcessor>ГлобальныеНастройки</DataProcessor>
@@ -134,6 +145,7 @@
 			<InformationRegister>НастройкиКлючевыхПоказателейЭффективности</InformationRegister>
 			<InformationRegister>АналитикаУчетаНоменклатуры</InformationRegister>
 			<AccumulationRegister>ТоварыНаСкладах</AccumulationRegister>
+			<AccumulationRegister>bos_ОстаткиТоваровПоСоглашениям</AccumulationRegister>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 		</ChildObjects>

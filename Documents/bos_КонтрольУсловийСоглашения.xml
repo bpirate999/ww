@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.12">
+	<Document uuid="958db72c-e93e-48d3-bc02-1bf6b5d8ab69">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.bos_КонтрольУсловийСоглашения" category="Object">
+				<xr:TypeId>98e47a66-5699-4a6c-bba9-cf3b2a698c4d</xr:TypeId>
+				<xr:ValueId>4f1fe871-307c-4de0-abe9-bb41ff60569b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.bos_КонтрольУсловийСоглашения" category="Ref">
+				<xr:TypeId>f9aba875-8aca-4a92-8091-3e0eea51f152</xr:TypeId>
+				<xr:ValueId>7f36e9ff-60ef-4021-8620-c1d1e56c7a41</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.bos_КонтрольУсловийСоглашения" category="Selection">
+				<xr:TypeId>31565829-4882-4aca-8db4-2d54cbf3aab0</xr:TypeId>
+				<xr:ValueId>ff6ae081-3a4c-48bd-ba78-e35f9b3af891</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.bos_КонтрольУсловийСоглашения" category="List">
+				<xr:TypeId>bd5a1547-8d33-4129-b766-7b11b7145f5e</xr:TypeId>
+				<xr:ValueId>c933ddd0-b049-472f-bc86-ca8000f02384</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.bos_КонтрольУсловийСоглашения" category="Manager">
+				<xr:TypeId>241de12c-70a0-46bf-bf73-911214fa7f1d</xr:TypeId>
+				<xr:ValueId>64890bdc-4027-401e-9a01-d37b5657c410</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>bos_КонтрольУсловийСоглашения</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>290f18fb-d22f-4442-b90c-fc72359d9d88</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>
